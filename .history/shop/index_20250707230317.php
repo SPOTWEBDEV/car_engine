@@ -1,6 +1,3 @@
-<?php include("../server/connection.php") ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +7,11 @@
     <title>AutoVault - Car Dealer
         HTML Template</title>
     <meta name="description" content="Your trusted source for expert healthcare services and car information. Providing personalized care, advanced treatments, and reliable car dealing to help you achieve better health.">
-    <link rel="stylesheet" href="<?php echo $domain ?> assets/css/plugins/plugins.css">
-    <link rel="stylesheet" href="<?php echo $domain ?> assets/css/plugins/magnifying-popup.css">
-    <link rel="stylesheet" href="<?php echo $domain ?> assets/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo $domain ?> assets/fonts/rt-icon.css">
-    <link rel="stylesheet" href="<?php echo $domain ?> assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnifying-popup.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/rt-icon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -658,20 +655,20 @@
         <!-- mobile menu area end -->
     </div>
     <!-- header style two End -->
-    <script src="<?php echo $domain ?> assets/js/plugins/jquery.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/jquery-ui.js"></script>
-    <script src="<?php echo $domain ?> assets/js/vendor/waw.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/counter-up.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/contact-form.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/swiper.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/metismenu.js"></script>
-    <script src="<?php echo $domain ?> assets/js/vendor/jarallax.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/smooth-scroll.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/magnifying-popup.js"></script>
-    <script src="<?php echo $domain ?> assets/js/vendor/bootstrap.min.js"></script>
-    <script src="<?php echo $domain ?> assets/js/vendor/waypoint.js"></script>
+    <script src="assets/js/plugins/jquery.js"></script>
+    <script src="assets/js/plugins/jquery-ui.js"></script>
+    <script src="assets/js/vendor/waw.js"></script>
+    <script src="assets/js/plugins/counter-up.js"></script>
+    <script src="assets/js/plugins/contact-form.js"></script>
+    <script src="assets/js/plugins/swiper.js"></script>
+    <script src="assets/js/plugins/metismenu.js"></script>
+    <script src="assets/js/vendor/jarallax.js"></script>
+    <script src="assets/js/plugins/smooth-scroll.js"></script>
+    <script src="assets/js/plugins/magnifying-popup.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/waypoint.js"></script>
     <!-- main js here -->
-    <script src="<?php echo $domain ?> assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 

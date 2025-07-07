@@ -1,5 +1,5 @@
 <?php
-$domain = "http://localhost/car_engine/";
+$domain = "http:"
 $connection = mysqli_connect('localhost','root','','car_engine');
 
 if(!$connection){

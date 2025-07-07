@@ -658,20 +658,20 @@
         <!-- mobile menu area end -->
     </div>
     <!-- header style two End -->
-    <script src="<?php echo $domain ?> assets/js/plugins/jquery.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/jquery-ui.js"></script>
-    <script src="<?php echo $domain ?> assets/js/vendor/waw.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/counter-up.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/contact-form.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/swiper.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/metismenu.js"></script>
-    <script src="<?php echo $domain ?> assets/js/vendor/jarallax.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/smooth-scroll.js"></script>
-    <script src="<?php echo $domain ?> assets/js/plugins/magnifying-popup.js"></script>
-    <script src="<?php echo $domain ?> assets/js/vendor/bootstrap.min.js"></script>
-    <script src="<?php echo $domain ?> assets/js/vendor/waypoint.js"></script>
+    <script src="assets/js/plugins/jquery.js"></script>
+    <script src="assets/js/plugins/jquery-ui.js"></script>
+    <script src="assets/js/vendor/waw.js"></script>
+    <script src="assets/js/plugins/counter-up.js"></script>
+    <script src="assets/js/plugins/contact-form.js"></script>
+    <script src="assets/js/plugins/swiper.js"></script>
+    <script src="assets/js/plugins/metismenu.js"></script>
+    <script src="assets/js/vendor/jarallax.js"></script>
+    <script src="assets/js/plugins/smooth-scroll.js"></script>
+    <script src="assets/js/plugins/magnifying-popup.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/waypoint.js"></script>
     <!-- main js here -->
-    <script src="<?php echo $domain ?> assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 

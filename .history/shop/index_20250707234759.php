@@ -671,7 +671,7 @@
     <script src="<?php echo $domain ?> assets/js/vendor/bootstrap.min.js"></script>
     <script src="<?php echo $domain ?> assets/js/vendor/waypoint.js"></script>
     <!-- main js here -->
-    <script src="<?php echo $domain ?> assets/js/main.js"></script>
+    <script src=" assets/js/main.js"></script>
 </body>
 
 
