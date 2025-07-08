@@ -58,7 +58,7 @@
                     <div class="container">
                         <div class="inner">
                             <div class="logo-area">
-                                <a href="index-2.html"><img src="<?php echo $domain ?> assets/images/logo/logo.svg" width="99" alt=""></a>
+                                <a href="index-2.html"><img src="<?php echo $domain ?>assets/images/logo/logo.svg" width="99" alt=""></a>
                             </div>
                             <div class="get-touch-area">
                                 <div class="map-area">

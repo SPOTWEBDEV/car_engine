@@ -1,9 +1,7 @@
 <?php
 
-    include '../server/connection.php';
-    if (! isset($_SESSION['admin_login_']) && $_SESSION['admin_login_'] != true) {
-        echo "<script> window.location.href = 'login.php'</script>";
-    }
+include '../server/connection.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="en" class="light-style layout-menu-fixed " dir="ltr" data-theme="theme-default" data-assets-path="assets/" data-template="vertical-menu-template-free">
@@ -48,7 +46,7 @@
 
   <!-- beautify ignore:end -->
   <script src="jquery-3.6.0.min.js"></script>
-    <script src="sweetalert2.all.min.js"></script>
+  <script src="sweetalert2.all.min.js"></script>
 
 </head>
 
@@ -59,7 +57,7 @@
     <div class="layout-container">
 
       <!-- Menu -->
-      <?php include 'includes/side_bar.php'?>
+      <?php include 'includes/side_bar.php' ?>
       <!-- / Menu -->
 
       <!-- Layout container -->
@@ -88,7 +86,7 @@
             <!-- /Search -->
 
 
-            
+
           </div>
 
 
@@ -119,45 +117,52 @@
                       <th>S/N</th>
                       <th>Fullname</th>
                       <th>Email</th>
-                      <th>Phonenumber</th>
-                      
-
                       <th>Date</th>
-                       <th>Message</th>
-
-
+                      <th>Subject</th>
+                      <th>Status</th>
                     </tr>
                   </thead>
                   <tbody class="table-border-bottom-0">
                     <?php
 
-                        $sql = mysqli_query($connection, "SELECT * FROM `contact`");
-                        if (mysqli_num_rows($sql)) {
-                            $count = 1;
-                            while ($details = mysqli_fetch_assoc($sql)) {
+                    $sql = mysqli_query($connection, "SELECT * FROM `contact`");
+                    if (mysqli_num_rows($sql)) {
+                      $count = 1;
+                      while ($details = mysqli_fetch_assoc($sql)) {
 
-                                $id = $details['id'];
-                            ?>
+                        $id = $details['id'];
+                        $status = $details['status'];
+                    ?>
                         <tr>
                           <td><?php echo $count ?></td>
                           <td><?php echo $details['name'] ?></td>
 
                           <td><?php echo $details['email'] ?></td>
-                          <td><?php echo $details['phone'] ?></td>
                           <td><?php echo $details['date'] ?></td>
-                          <td><?php echo $details['message'] ?></td>
-                        
+                          <td><?php echo $details['subject'] ?></td>
+                          <td style="text-transform: capitalize;">
 
-                                       
+                            <?php
 
+                            if ($status == 'unread') {
+                              echo "<button style='text-transform: capitalize;' class='btn btn-danger'>$status</button>";
+                            } else if ($status == 'read') {
+                              echo "<button style='text-transform: capitalize;' class='btn btn-primary'>$status</button>";
+                            } else if ($status == 'replied') {
+                              echo "<button style='text-transform: capitalize;' class='btn btn-success'>$status</button>";
+                            } else {
+                              echo "<button style='text-transform: capitalize;' class='btn btn-info'>$status</button>";
+                            }
 
+                            ?>
 
+                          </td>
                         </tr>
                     <?php $count++;
-                            }
-                        } else {
-                            echo "<td class='bg-danger text-white' colspan='10'>No Contact Messages</td>";
-                    }?>
+                      }
+                    } else {
+                      echo "<td class='bg-danger text-white' colspan='10'>No Contact Messages</td>";
+                    } ?>
                   </tbody>
                 </table>
               </div>

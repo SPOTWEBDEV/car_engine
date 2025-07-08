@@ -56,20 +56,20 @@ if ($isLocalhost) {
    
 }
 
-
-
+// Site configurations
+$sitename = "Josemaka";
 
 // Email Config 
+$siteemail = "support@josemaka.com";
+$emailpassword  = "support@josemaka.com";
+$host = 'mail.josemaka.com';
 
-
-// $sitephone  = "+44 776 0957 798";
-// $siteaddress  = "Weston, New York";
+$sitephone  = "+44 776 0957 798";
+$siteaddress  = "Weston, New York";
 session_start();
 
-// Site configurations
-// $siteemail = "support@josemaka.com";
-// $emailpassword  = "support@josemaka.com";
-$host = 'mail.josemaka.com';
+
+
 $sitename = "Josemaka";
 $site_email = "lijezzy4real@yahool.com";
 $long_number = "+244 928 602 665 / 935 459 394  / 942 735 262 ";

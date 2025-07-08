@@ -2,13 +2,6 @@
 
 include('../server/connection.php');
 
-if (!isset($_SESSION['admin_login_']) && $_SESSION['admin_login_'] != true) {
-  echo "
-    <script>
-      window.location.href = 'login.php';
-    </script>";
-}
-
 ?>
 <!DOCTYPE html>
 <html lang="en" class="light-style layout-menu-fixed " dir="ltr" data-theme="theme-default" data-assets-path="assets/" data-template="vertical-menu-template-free">
