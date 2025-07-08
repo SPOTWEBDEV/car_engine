@@ -671,9 +671,6 @@
     <script src="<?php echo $domain ?>assets/js/vendor/bootstrap.min.js"></script>
     <script src="<?php echo $domain ?>assets/js/vendor/waypoint.js"></script>
     <!-- main js here -->
-    <script src="<?php echo $domain ?> assets/js/main.js"></script>
+    <script src="<?php echo $domain ?>assets/js/main.js"></script>
 </body>
-
-
-<!-- Mirrored from html.themewant.com/autovault/shop.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Jul 2025 17:02:19 GMT -->
 </html>
