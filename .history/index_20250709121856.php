@@ -102,20 +102,20 @@
                                         <div class="nav-area">
                                             <ul class="">
                                                 <li class="">
-                                                    <a class="main-menu" href="<?php echo $domain ?>index.php">Home</a>
+                                                    <a class="main-menu" href="<?php echo $domain ?>home">Home</a>
                                                 
                                                 </li>
 
                                                 <li class="main-nav">
-                                                    <a class="main-menu" href="<?php echo $domain ?>about/index.php">About Us</a>
+                                                    <a class="main-menu" href="<?php echo $domain ?>about/about.php">About Us</a>
                                                 </li>
                                              
                                             
                                                 <li class="main-nav">
-                                                    <a class="main-menu" href="<?php echo $domain ?>shop/index.php">Shop</a>
+                                                    <a class="main-menu" href="<?php echo $domain ?>shop/shop.php">Shop</a>
                                                
                                                 </li>
-                                                <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>index.php">Contact</a></li>
+                                                <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>contact.php">Contact</a></li>
                                             </ul>
                                         </div>
                                         <div class="bottom-right">

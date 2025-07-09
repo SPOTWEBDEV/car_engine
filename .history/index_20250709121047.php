@@ -101,21 +101,21 @@
                                         </div>
                                         <div class="nav-area">
                                             <ul class="">
-                                                <li class="">
-                                                    <a class="main-menu" href="<?php echo $domain ?>index.php">Home</a>
+                                                <li class="has-dropdown main-nav">
+                                                    <a class="main-menu" href="javascript:void(0)">Home</a>
                                                 
                                                 </li>
 
                                                 <li class="main-nav">
-                                                    <a class="main-menu" href="<?php echo $domain ?>about/index.php">About Us</a>
+                                                    <a class="main-menu" href="about.html">About Us</a>
                                                 </li>
                                              
                                             
                                                 <li class="main-nav">
-                                                    <a class="main-menu" href="<?php echo $domain ?>shop/index.php">Shop</a>
+                                                    <a class="main-menu" href="javascript:void(0)">Shop</a>
                                                
                                                 </li>
-                                                <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>index.php">Contact</a></li>
+                                                <li class="main-nav"><a class="main-menu" href="contact.html">Contact</a></li>
                                             </ul>
                                         </div>
                                         <div class="bottom-right">
@@ -1209,7 +1209,7 @@
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
                     <li class="">
-                        <a href="<?php echo $domain ?>index.php" class="main">Home</a>      
+                        <a href="" class="main">Home</a>      
              
                     </li>
 

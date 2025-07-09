@@ -91,7 +91,7 @@
                                                     </li>
 
                                                     <li class="main-nav">
-                                                        <a class="main-menu" href="<?php echo $domain ?>about/index.php">About Us</a>
+                                                        <a class="main-menu" href="about.html">About Us</a>
                                                     </li>
                                                    
                                                     <li class="">
@@ -466,6 +466,17 @@
                             </div>
                         </div>
                      
+                        <div class="single-wized">
+                            <h6 class="title">Download App</h6>
+                            <div class="body d-flex gap-3">
+                                <a href="#">
+                                    <img src="assets/images/about/app-store.svg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/images/about/play-store.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -481,9 +492,15 @@
                                         new Date().getFullYear()
                                     )
                                 </script>
-                                All Rights Reserved by <?php echo $sitename ?> 
+                                All Rights Reserved by Autovalut 
                             </p>
-                          
+                            <div class="social-area-transparent">
+                                <ul class="d-flex align-items-center">
+                                    <li><a href="#"><img src="assets/images/icon/x.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/images/icon/in.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/images/icon/f.svg" alt=""></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>

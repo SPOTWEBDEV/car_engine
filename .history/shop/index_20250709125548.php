@@ -91,7 +91,7 @@
                                                     </li>
 
                                                     <li class="main-nav">
-                                                        <a class="main-menu" href="<?php echo $domain ?>about/index.php">About Us</a>
+                                                        <a class="main-menu" href="about.html">About Us</a>
                                                     </li>
                                                    
                                                     <li class="">
@@ -424,11 +424,7 @@
                         <div class="contact">
                             <a href="call-to_%2b16544521505.html">
                                 <img src="assets/images/cta/call.svg" alt="">
-                                <?php echo $Short_number ?> <br> <br>
-                                +244 935 459 394  <br> <br>
-                                +244  942 735 262
-                            
-                            </a>
+                                <?php echo $Short_number </a>
                         </div>
                         <img class="shape one" src="assets/images/cta/round.svg" alt="">
                         <img class="shape two" src="assets/images/cta/line.svg" alt="">
@@ -465,7 +461,28 @@
                                 </ul>
                             </div>
                         </div>
-                     
+                        <div class="single-wized">
+                            <h6 class="title">Quick Links</h6>
+                            <div class="body">
+                                <ul class="nav-bottom">
+                                    <li><a href="service-details.html">Get In Touch</a></li>
+                                    <li><a href="service-details.html">Car Reviews</a></li>
+                                    <li><a href="service-details.html">Maintenance Tips </a></li>
+                                    <li><a href="service-details.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="single-wized">
+                            <h6 class="title">Download App</h6>
+                            <div class="body d-flex gap-3">
+                                <a href="#">
+                                    <img src="assets/images/about/app-store.svg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/images/about/play-store.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -481,9 +498,15 @@
                                         new Date().getFullYear()
                                     )
                                 </script>
-                                All Rights Reserved by <?php echo $sitename ?> 
+                                All Rights Reserved by Autovalut 
                             </p>
-                          
+                            <div class="social-area-transparent">
+                                <ul class="d-flex align-items-center">
+                                    <li><a href="#"><img src="assets/images/icon/x.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/images/icon/in.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/images/icon/f.svg" alt=""></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>

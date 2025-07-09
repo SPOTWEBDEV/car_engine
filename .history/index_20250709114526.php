@@ -101,21 +101,21 @@
                                         </div>
                                         <div class="nav-area">
                                             <ul class="">
-                                                <li class="">
-                                                    <a class="main-menu" href="<?php echo $domain ?>index.php">Home</a>
+                                                <li class="has-dropdown main-nav">
+                                                    <a class="main-menu" href="javascript:void(0)">Home</a>
                                                 
                                                 </li>
 
                                                 <li class="main-nav">
-                                                    <a class="main-menu" href="<?php echo $domain ?>about/index.php">About Us</a>
+                                                    <a class="main-menu" href="about.html">About Us</a>
                                                 </li>
                                              
                                             
                                                 <li class="main-nav">
-                                                    <a class="main-menu" href="<?php echo $domain ?>shop/index.php">Shop</a>
+                                                    <a class="main-menu" href="javascript:void(0)">Shop</a>
                                                
                                                 </li>
-                                                <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>index.php">Contact</a></li>
+                                                <li class="main-nav"><a class="main-menu" href="contact.html">Contact</a></li>
                                             </ul>
                                         </div>
                                         <div class="bottom-right">
@@ -1174,8 +1174,28 @@
                                 </ul>
                             </div>
                         </div>
-                       
-                       
+                        <div class="single-wized">
+                            <h6 class="title">Quick Links</h6>
+                            <div class="body">
+                                <ul class="nav-bottom">
+                                    <li><a href="service-details.html">Get In Touch</a></li>
+                                    <li><a href="service-details.html">Car Reviews</a></li>
+                                    <li><a href="service-details.html">Maintenance Tips </a></li>
+                                    <li><a href="service-details.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="single-wized">
+                            <h6 class="title">Download App</h6>
+                            <div class="body d-flex gap-3">
+                                <a href="#">
+                                    <img src="assets/images/about/app-store.svg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="assets/images/about/play-store.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1193,7 +1213,13 @@
                                 </script>
                                 All Rights Reserved by <?php echo $sitename ?>
                             </p>
-                     
+                            <div class="social-area-transparent">
+                                <ul class="d-flex align-items-center">
+                                    <li><a href="#"><img src="assets/images/icon/x.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/images/icon/in.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="assets/images/icon/f.svg" alt=""></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1208,16 +1234,54 @@
         <div class="mobile-menu-main">
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
-                    <li class="">
-                        <a href="<?php echo $domain ?>index.php" class="main">Home</a>      
-             
+                    <li class="has-droupdown">
+                        <!-- <a href="#" class="main">Home</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="index-2.html">Dealer One</a></li>
+                            <li><a class="mobile-menu-link" href="index-two.html">Dealer Two</a></li>
+                            <li><a class="mobile-menu-link" href="index-three.html">Dealer Three</a></li>
+                            <li><a class="mobile-menu-link" href="index-four.html">Shop Demo</a></li>
+                            <li><a class="mobile-menu-link" href="index-five.html">Wash Demo</a></li>
+                            <li><a class="mobile-menu-link" href="index-six.html">Repair Demo</a></li>
+                            <li><a class="mobile-menu-link" href="index-seven.html">Dealer Slider</a></li>
+                            <li><a class="mobile-menu-link" href="index-eight.html">Dealer Video</a></li>
+                        </ul> -->
                     </li>
-
-                    <li><a href="<?php echo $domain ?>about/about.php" class="main">About</a></li>
-                    <li class="">
-                        <a href="<?php echo $domain ?>shop/index.php" class="main">Shop</a> 
+                    <li><a href="about.html" class="main">About</a></li>
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Listing</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="portfolio.html">Car One</a></li>
+                            <li><a class="mobile-menu-link" href="portfolio-two.html">Car Two</a></li>
+                            <li><a class="mobile-menu-link" href="portfolio-three.html">Car Three</a></li>
+                            <li><a class="mobile-menu-link" href="portfolio-details.html">Car Single</a></li>
+                            <li><a class="mobile-menu-link" href="portfolio-details-2.html">Car Single Two</a></li>
+                        </ul>
+                    </li> -->
+                    <!-- <!-- <li class="has-droupdown">
+                        <a href="#" class="main">Pages</a>
+                        <ul class="submenu mm-collapse">
+                            <li><a href="service.html">Service</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="sold-car.html">Sold Car</a></li>
+                            <li><a href="calculator.html">Calculator</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="blog-2.html">Blog Two</a></li>
+                            <li><a href="blog-details.html">Blog Single</a></li>
+                            <li><a href="team.html">Team</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="has-droupdown">
+                        <a href="#" class="main">Shop</a>
+                        <!-- <ul class="submenu mm-collapse">
+                            <li><a class="mobile-menu-link" href="shop.html">Shop</a></li>
+                            <li><a class="mobile-menu-link" href="shop-2.html">Shop Two</a></li>
+                            <li><a class="mobile-menu-link" href="shop-3.html">Shop Three</a></li>
+                            <li><a class="mobile-menu-link" href="shop-details.html">Shop Single</a></li>
+                        </ul> -->
                     </li>
-                    <li><a href="<?php echo $domain ?>contact/index.php" class="main">Contact</a></li>
+                    <li><a href="contact.html" class="main">Contact</a></li>
                 </ul>
             </nav>
 

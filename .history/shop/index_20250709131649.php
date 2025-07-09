@@ -91,7 +91,7 @@
                                                     </li>
 
                                                     <li class="main-nav">
-                                                        <a class="main-menu" href="<?php echo $domain ?>about/index.php">About Us</a>
+                                                        <a class="main-menu" href="">About Us</a>
                                                     </li>
                                                    
                                                     <li class="">
