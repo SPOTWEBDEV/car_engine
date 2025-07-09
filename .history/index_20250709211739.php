@@ -993,7 +993,7 @@
                     <div class="section-inner mt--80">
                         <div class="row g-5">
                         <div class="col-xl-7 col-lg-6">
-                    <div class="rts-faq__accordion ">
+                    <div class="rts-faq__accordion col-12">
                         <div class="accordion accordion-flush" id="rts-accordion">
                             <div class="accordion-item active">
                                 <div class="accordion-header" id="faq1">
@@ -1111,10 +1111,10 @@
                             <h6 class="title">Contact & legal </h6>
                             <div class="body">
                                 <ul class="nav-bottom">
-                                    <li><a href="<?php echo $domain ?>index.php">Home</a></li>
-                                    <li><a href="<?php echo $domain ?>about/index.php">About</a></li>
-                                    <li><a href="<?php echo $domain ?>shop/index.php">Shop</a></li>
-                                    <li><a href="<?php echo $domain ?>contact/index.php">Contact</a></li>
+                                    <li><a href="#">Legal</a></li>
+                                    <li><a href="#">Privacy policy</a></li>
+                                    <li><a href="#">Cookies policy </a></li>
+                                    <li><a href="#">Disclaimer</a></li>
                                 </ul>
                             </div>
                         </div>

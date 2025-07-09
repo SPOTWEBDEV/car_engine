@@ -1113,8 +1113,8 @@
                                 <ul class="nav-bottom">
                                     <li><a href="<?php echo $domain ?>index.php">Home</a></li>
                                     <li><a href="<?php echo $domain ?>about/index.php">About</a></li>
-                                    <li><a href="<?php echo $domain ?>shop/index.php">Shop</a></li>
-                                    <li><a href="<?php echo $domain ?>contact/index.php">Contact</a></li>
+                                    <li><a href="<?php echo $domain ?>">Shop</a></li>
+                                    <li><a href="#">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
