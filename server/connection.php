@@ -59,16 +59,9 @@ if ($isLocalhost) {
 
 
 
-// Email Config 
-
-
-// $sitephone  = "+44 776 0957 798";
-// $siteaddress  = "Weston, New York";
 session_start();
 
-// Site configurations
-// $siteemail = "support@josemaka.com";
-// $emailpassword  = "support@josemaka.com";
+
 $host = 'mail.josemaka.com';
 $sitename = "Josemaka";
 $site_email = "lijezzy4real@yahool.com";

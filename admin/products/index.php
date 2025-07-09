@@ -1,25 +1,24 @@
 <?php
-    include '../server/connection.php';
+    include '../../server/connection.php';
     if (isset($_GET['del_id'])) {
         // Get the ID from the URL query string
         $id = $_GET['del_id'];
 
-        // Display an alert with the ID (for debugging)
-        echo "<script>alert('ID: $id')</script>";
+        
 
         // Sanitize the input to avoid SQL injection
         $id = mysqli_real_escape_string($connection, $id);
 
         // Prepare the delete query
-        $delete = mysqli_query($connection, "DELETE FROM event WHERE id = '$id'");
+        $delete = mysqli_query($connection, "DELETE FROM product WHERE id = '$id'");
 
         // Check if the query was successful
         if ($delete) {
             // Successful deletion alert
-            echo "<script>alert('Your delete request was successful.'); window.location.href='events.php';</script>";
+            echo "<script>alert('Your delete request was successful.'); window.location.href='index.php';</script>";
         } else {
             // If deletion fails, display an error message
-            echo "<script>alert('Error: Could not delete the record.');</script>";
+            echo "<script>alert('Error: Could not delete select product.');</script>";
         }
     }
 
@@ -31,7 +30,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <title>Event List --                        <?php echo $sitename ?></title>
+  <title>Product List -- <?php echo $sitename ?></title>
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="<?php echo $domain ?>admin/assets/img/favicon/favicon.ico" />
@@ -66,8 +65,8 @@
   <script src="<?php echo $domain ?>admin/assets/js/config.js"></script>
 
   <!-- beautify ignore:end -->
-  <script src="jquery-3.6.0.min.js"></script>
-    <script src="sweetalert2.all.min.js"></script>
+  <script src="<?php echo $domain ?>admin/assets/jsjquery-3.6.0.min.js"></script>
+    <script src="<?php echo $domain ?>admin/assets/jssweetalert2.all.min.js"></script>
 
 </head>
 
@@ -125,43 +124,56 @@
           <div class="container-xxl flex-grow-1 container-p-y">
 
             <h4 class="fw-bold py-3 mb-4">
-              <span class="text-muted fw-light">Admin /</span> Event
+              <span class="text-muted fw-light">Admin /</span> Products
             </h4>
 
             <!-- Basic Bootstrap Table -->
             <div class="card">
-    <h5 class="card-header">All Events</h5>
+    <h5 class="card-header">All Product List</h5>
     <div class="table-responsive text-nowrap">
         <table class="table">
             <thead>
                 <tr>
                     <th>S/N</th>
-                    <th>Title</th>
-                    <th>Date</th>
-                    <th>Venue</th>
+                    <th>Product Name</th>
                     <th>Image</th>
+                    <th>Status</th>
                     <th>Action</th>
                 </tr>
             </thead>
             <tbody class="table-border-bottom-0">
                 <?php
-                    $sql = mysqli_query($connection, "SELECT * FROM `event` ORDER BY date DESC");
+                    $sql = mysqli_query($connection, "SELECT * FROM `product` ORDER BY id DESC");
                     if (mysqli_num_rows($sql) > 0) {
                         $count = 1;
                         while ($details = mysqli_fetch_assoc($sql)) {
                             $id        = $details['id'];
-                            $imagePath = "../upload/event/" . $details['image']; // Assuming images are stored in 'uploads/' directory
+                            $imagePath = "../../upload/product/" . $details['image'];
+                            $status = $details['status'];
                         ?>
                         <tr>
                             <td><?php echo $count; ?></td>
                             <td><?php echo htmlspecialchars($details['title']); ?></td>
-                            <td><?php echo date("F j, Y", strtotime($details['date'])); ?></td>
-                            <td><?php echo htmlspecialchars($details['venue']); ?></td>
                             <td>
-                                <img src="<?php echo $imagePath; ?>" alt="Event Image"  height="100" style="border-radius: 5px;">
+                                <img src="<?php echo $imagePath; ?>" alt="Product Image"  height="100" style="border-radius: 5px;">
                             </td>
                             <td>
-                                <a onclick="return confirm('Are you sure you want to delete this event?')" href="?del_id=<?php echo $id; ?>">
+                            <?php
+
+                                if ($status == 'unread') {
+                                  echo "<button style='text-transform: capitalize;' class='btn btn-danger'>$status</button>";
+                                } else if ($status == 'read') {
+                                  echo "<button style='text-transform: capitalize;' class='btn btn-primary'>$status</button>";
+                                } else if ($status == 'replied') {
+                                  echo "<button style='text-transform: capitalize;' class='btn btn-success'>$status</button>";
+                                } else {
+                                  echo "<button style='text-transform: capitalize;' class='btn btn-info'>$status</button>";
+                                }
+
+                                ?>
+                            </td>
+                            <td>
+                                <a onclick="return confirm('Are you sure you want to delete this product?')" href="?del_id=<?php echo $id; ?>">
                                     <button class="btn btn-danger">Delete</button>
                                 </a>
                             </td>
@@ -188,29 +200,7 @@
 
 
 
-          <!-- Footer -->
-          <!-- <footer class="content-footer footer bg-footer-theme">
-            <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
-              <div class="mb-2 mb-md-0">
-                © <script>
-                  document.write(new Date().getFullYear())
-                </script>
-                , made with ❤️ by <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
-              </div>
-              <div>
-
-                <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
-                <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
-
-                <a href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/" target="_blank" class="footer-link me-4">Documentation</a>
-
-                <a href="https://github.com/themeselection/sneat-html-admin-template-free/issues" target="_blank" class="footer-link me-4">Support</a>
-
-
-              </div>
-            </div>
-          </footer> -->
-          <!-- / Footer -->
+        
           <div class="content-backdrop fade"></div>
         </div>
         <!-- Content wrapper -->

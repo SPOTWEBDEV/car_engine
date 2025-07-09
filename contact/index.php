@@ -4,13 +4,10 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from html.themewant.com/autovault/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Jul 2025 17:02:22 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.svg">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain?>assets/images/fav.svg">
     <title>AutoVault - Car Dealer
         HTML Template</title>
     <meta name="description" content="Your trusted source for expert healthcare services and car information. Providing personalized care, advanced treatments, and reliable car dealing to help you achieve better health.">
@@ -75,9 +72,9 @@
                             <div class="right">
                                 <div class="social-area-transparent">
                                     <ul class="d-flex align-items-center">
-                                        <li><a href="#"><img src="assets/images/icon/x.svg" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/images/icon/in.svg" alt=""></a></li>
-                                        <li><a href="#"><img src="assets/images/icon/f.svg" alt=""></a></li>
+                                        <li><a href="#"><img src="<?php echo $domain?>assets/images/icon/x.svg" alt=""></a></li>
+                                        <li><a href="#"><img src="<?php echo $domain?>assets/images/icon/in.svg" alt=""></a></li>
+                                        <li><a href="#"><img src="<?php echo $domain?>assets/images/icon/f.svg" alt=""></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -91,7 +88,7 @@
                                 <div class="header-wrapper-1">
                                     <div class="logo-area-start">
                                         <a href="index-2.html" class="logo">
-                                            <img src="assets/images/logo/logo.svg" width="99" alt="logo_area">
+                                            <img src="<?php echo $domain?>assets/images/logo/logo.svg" width="99" alt="logo_area">
                                         </a>
                                     </div>
                                     <div class="header-right d-block">
@@ -292,26 +289,26 @@
                     <div class="inner">
                         <div class="contact-wrapper">
                             <div class="icon">
-                                <img src="assets/images/contact/01.svg" alt="">
+                                <img src="<?php echo $domain?>assets/images/contact/01.svg" alt="">
                             </div>
                             <h5 class="title">Location</h5>
                             <ul>
-                                <li>71-75 Shelton Street, London, Greater <br> London, United Kingdom, WC2H 9JQ</li>
+                                <li> <?php echo $long_site_address ?></li>
                             </ul>
                         </div>
                         <div class="contact-wrapper">
                             <div class="icon">
-                                <img src="assets/images/contact/02.svg" alt="">
+                                <img src="<?php echo $domain?>assets/images/contact/02.svg" alt="">
                             </div>
                             <h5 class="title">Email</h5>
                             <ul>
-                                <li><a href="mail-to_autovault%40gmail-2.html">autovault@gmail.com</a></li>
-                                <li><a href="mail-to_autovaultbusiness%40gmail.html">autovaultbusiness@gmail.com</a></li>
+                                <li><a href="mail-to:<?php echo $site_email ?>"><?php echo $site_email ?></a></li>
+                                <li><a href="mail-to:support@josemaka.com">support@josemaka.com</a></li>
                             </ul>
                         </div>
                         <div class="contact-wrapper">
                             <div class="icon">
-                                <img src="assets/images/contact/03.svg" alt="">
+                                <img src="<?php echo $domain?>assets/images/contact/03.svg" alt="">
                             </div>
                             <h5 class="title">Phone</h5>
                             <ul>
@@ -330,7 +327,7 @@
                     <div class="counter-inner">
                         <div class="inner wow zoomIn" data-wow-delay=".2s" data-wow-duration="1s">
                             <div class="icon">
-                                <img src="assets/images/counter/icon-01.svg" width="74" alt="">
+                                <img src="<?php echo $domain?>assets/images/counter/icon-01.svg" width="74" alt="">
                             </div>
                             <div class="text">
                                 <h3 class="title cw"><span class="counter">320</span><span>M</span></h3>
@@ -339,7 +336,7 @@
                         </div>
                         <div class="inner wow zoomIn" data-wow-delay=".4s" data-wow-duration="1s">
                             <div class="icon">
-                                <img src="assets/images/counter/icon-02.svg" alt="">
+                                <img src="<?php echo $domain?>assets/images/counter/icon-02.svg" alt="">
                             </div>
                             <div class="text">
                                 <h3 class="title cw"><span class="counter">5500</span><span>+</span></h3>
@@ -348,7 +345,7 @@
                         </div>
                         <div class="inner wow zoomIn" data-wow-delay=".6s" data-wow-duration="1s">
                             <div class="icon">
-                                <img src="assets/images/counter/icon-03.svg" alt="">
+                                <img src="<?php echo $domain?>assets/images/counter/icon-03.svg" alt="">
                             </div>
                             <div class="text">
                                 <h3 class="title cw"><span class="counter">300</span><span>M</span></h3>
@@ -357,7 +354,7 @@
                         </div>
                         <div class="inner wow zoomIn" data-wow-delay=".8s" data-wow-duration="1s">
                             <div class="icon">
-                                <img src="assets/images/counter/icon-04.svg" alt="">
+                                <img src="<?php echo $domain?>assets/images/counter/icon-04.svg" alt="">
                             </div>
                             <div class="text">
                                 <h3 class="title cw"><span class="counter">10</span><span>M</span></h3>
@@ -377,13 +374,13 @@
                     </div>
                     <div class="section-inner mt--80">
                         <ul>
-                            <li class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s"><img src="assets/images/brand/01-w.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s"><img src="assets/images/brand/02.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s"><img src="assets/images/brand/03.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s"><img src="assets/images/brand/04.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s"><img src="assets/images/brand/05.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1s"><img src="assets/images/brand/06.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="assets/images/brand/07.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/01-w.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/02.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/03.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/04.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/05.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/06.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/07.svg" alt=""></li>
                         </ul>
                     </div>
                 </div>
@@ -395,11 +392,11 @@
                         <h2 class="title">If you have any questions Please Call.</h2>
                         <div class="contact">
                             <a href="call-to_%2b16544521505.html">
-                                <img src="assets/images/cta/call.svg" alt="">
+                                <img src="<?php echo $domain?>assets/images/cta/call.svg" alt="">
                                 +1-654-452-1505</a>
                         </div>
-                        <img class="shape one" src="assets/images/cta/round.svg" alt="">
-                        <img class="shape two" src="assets/images/cta/line.svg" alt="">
+                        <img class="shape one" src="<?php echo $domain?>assets/images/cta/round.svg" alt="">
+                        <img class="shape two" src="<?php echo $domain?>assets/images/cta/line.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -414,7 +411,7 @@
                     <div class="footer-wrapper-style-between">
                         <div class="single-wized logo-area">
                             <a href="index-2.html" class="logo">
-                                <img src="assets/images/logo/logo.svg" width="99" alt="">
+                                <img src="<?php echo $domain?>assets/images/logo/logo.svg" width="99" alt="">
                             </a>
                             <p class="desc">Don’t miss out on the latest updates, exclusive offers, and insider news. Join our community and get everything</p>
                             <form action="#">
@@ -448,10 +445,10 @@
                             <h6 class="title">Download App</h6>
                             <div class="body d-flex gap-3">
                                 <a href="#">
-                                    <img src="assets/images/about/app-store.svg" alt="">
+                                    <img src="<?php echo $domain?>assets/images/about/app-store.svg" alt="">
                                 </a>
                                 <a href="#">
-                                    <img src="assets/images/about/play-store.svg" alt="">
+                                    <img src="<?php echo $domain?>assets/images/about/play-store.svg" alt="">
                                 </a>
                             </div>
                         </div>
@@ -474,9 +471,9 @@
                             </p>
                             <div class="social-area-transparent">
                                 <ul class="d-flex align-items-center">
-                                    <li><a href="#"><img src="assets/images/icon/x.svg" alt=""></a></li>
-                                    <li><a href="#"><img src="assets/images/icon/in.svg" alt=""></a></li>
-                                    <li><a href="#"><img src="assets/images/icon/f.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?php echo $domain?>assets/images/icon/x.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?php echo $domain?>assets/images/icon/in.svg" alt=""></a></li>
+                                    <li><a href="#"><img src="<?php echo $domain?>assets/images/icon/f.svg" alt=""></a></li>
                                 </ul>
                             </div>
                         </div>

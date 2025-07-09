@@ -10,7 +10,7 @@ include('../server/connection.php');
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <title>Dashboard - Home</title>
+  <title>Dashboard - <?php echo $sitename ?></title>
 
   <meta name="description" content="Most Powerful &amp; Comprehensive Bootstrap 5 HTML Admin Dashboard Template built for developers!" />
   <meta name="keywords" content="dashboard, bootstrap 5 dashboard, bootstrap 5 design, bootstrap 5">
@@ -109,33 +109,105 @@ include('../server/connection.php');
         <div class="content-wrapper">
           <!-- Content -->
           <div class="container-xxl flex-grow-1 container-p-y">
-            <div class="row">
-              <div class="col-lg-8 mb-4 order-0">
-                <div class="card">
-                  <div class="d-flex align-items-end row">
-                    <div class="col-sm-7">
-                      <div class="card-body">
-                        <h5 class="card-title text-primary">Welcome to Your Dashboard</h5>
-                        <p class="mb-4">You have <span class="fw-bold">
-                            <?php
-                            $get_all = mysqli_query($connection, "SELECT * FROM `event`");
-                            echo mysqli_num_rows($get_all)
-                            ?>
-                          </span> Registered Users And You can manage your website from
-                          the action pane</p>
+            <div class="row col-12">
+              
+                <div class="col-lg-8 mb-4 order-0">
+                  <div class="card">
+                    <div class="d-flex align-items-end row">
+                      <div class="col-sm-7">
+                        <div class="card-body">
+                          <h5 class="card-title text-primary">Welcome to Your Dashboard</h5>
+                          <p class="mb-4">You have <span class="fw-bold">
+                              <?php
+                              $get_all = mysqli_query($connection, "SELECT * FROM `product`");
+                              echo mysqli_num_rows($get_all)
+                              ?>
+                            </span> Registered Product And You can manage your website from
+                            the action pane</p>
 
-                        <a href="book.php" class="btn btn-sm btn-outline-primary">ALL BOOKING</a>
+                          <a href="<?php echo $domain ?>admin/products/" class="btn btn-sm btn-outline-primary">ALL PRODUCT</a>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-sm-5 text-center text-sm-left">
-                      <div class="card-body pb-0 px-0 px-md-4">
-                        <img src="assets/img/illustrations/man-with-laptop-light.png" height="140" alt="View Badge User" data-app-dark-img="illustrations/man-with-laptop-dark.png" data-app-light-img="illustrations/man-with-laptop-light.png">
+                      <div class="col-sm-5 text-center text-sm-left">
+                        <div class="card-body pb-0 px-0 px-md-4">
+                          <img src="assets/img/illustrations/man-with-laptop-light.png" height="140" alt="View Badge User" data-app-dark-img="illustrations/man-with-laptop-dark.png" data-app-light-img="illustrations/man-with-laptop-light.png">
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-4 order-1">
+                <div class="col-lg-4 col-md-4 order-1">
+                  <div class="row">
+                    <div class="col-lg-6 col-md-12 col-6 mb-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-title d-flex align-items-start justify-content-between">
+                            <div class="avatar flex-shrink-0">
+                              <img src="assets/img/icons/unicons/chart-success.png" alt="chart success" class="rounded">
+                            </div>
+                            <div class="dropdown">
+                              <button class="btn p-0" type="button" id="cardOpt3" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bx bx-dots-vertical-rounded"></i>
+                              </button>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt3">
+                                <a class="dropdown-item" href="<?php echo $domain ?>admin/contact/">View More</a>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="fw-semibold d-block mb-1">Total Contact Message</span>
+                          <h3 class="card-title mb-2">
+                            <?php
+                            $get_all = mysqli_query($connection, "SELECT * FROM `contact`");
+                            echo mysqli_num_rows($get_all)
+                            ?>
+                          </h3>
+                          <small class="text-success fw-semibold"><i class='bx bx-up-arrow-alt'></i> %</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-6 mb-4">
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="card-title d-flex align-items-start justify-content-between">
+                            <div class="avatar flex-shrink-0">
+                              <img src="assets/img/icons/unicons/wallet-info.png" alt="Credit Card" class="rounded">
+                            </div>
+                            <div class="dropdown">
+                              <button class="btn p-0" type="button" id="cardOpt6" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bx bx-dots-vertical-rounded"></i>
+                              </button>
+                              <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt6">
+                                <a class="dropdown-item" href="<?php echo $domain ?>admin/contact/">View More</a>
+                              
+                              </div>
+                            </div>
+                          </div>
+                          <span>Total Pending Message</span>
+                          <h3 class="card-title text-nowrap mb-1">
+
+                            <?php
+                            $get_all = mysqli_query($connection, "SELECT count(id) as total FROM `contact` WHERE `status`='unread' ");
+                            $row =  mysqli_fetch_assoc($get_all);
+                            echo number_format($row['total']) ?? 0;
+                            ?>
+
+
+
+
+                          </h3>
+                          <small class="text-success fw-semibold"><i class='bx bx-up-arrow-alt'></i><?php // echo $total_amount / 100 
+                                                                                                    ?>%</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              
+
+              
+             
+            </div>
+            <div class="col-lg-12">
                 <div class="row">
                   <div class="col-lg-6 col-md-12 col-6 mb-4">
                     <div class="card">
@@ -149,14 +221,14 @@ include('../server/connection.php');
                               <i class="bx bx-dots-vertical-rounded"></i>
                             </button>
                             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt3">
-                              <a class="dropdown-item" href="deposits.php">View More</a>
+                              <a class="dropdown-item" href="<?php echo $domain ?>admin/products/">View More</a>
                             </div>
                           </div>
                         </div>
-                        <span class="fw-semibold d-block mb-1">BookKeeping</span>
+                        <span class="fw-semibold d-block mb-1">Total Instock Product</span>
                         <h3 class="card-title mb-2">
                           <?php
-                          $get_all = mysqli_query($connection, "SELECT * FROM `donations`");
+                          $get_all = mysqli_query($connection, "SELECT * FROM `product` WHERE `status`='instock'");
                           echo mysqli_num_rows($get_all)
                           ?>
                         </h3>
@@ -171,23 +243,59 @@ include('../server/connection.php');
                           <div class="avatar flex-shrink-0">
                             <img src="assets/img/icons/unicons/wallet-info.png" alt="Credit Card" class="rounded">
                           </div>
-                          <!-- <div class="dropdown">
+                          <div class="dropdown">
                             <button class="btn p-0" type="button" id="cardOpt6" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               <i class="bx bx-dots-vertical-rounded"></i>
                             </button>
                             <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt6">
-                              <a class="dropdown-item" href="javascript:void(0);">View More</a>
-                              <a class="dropdown-item" href="javascript:void(0);">Delete</a>
+                              <a class="dropdown-item" href="<?php echo $domain ?>admin/products/">View More</a>
+                            
                             </div>
-                          </div> -->
+                          </div>
                         </div>
-                        <span>Total Booking Amount</span>
+                        <span>Total Stock Prouct</span>
                         <h3 class="card-title text-nowrap mb-1">
 
                           <?php
-                          $get_all = mysqli_query($connection, "SELECT sum(amount) as total FROM `donations`");
-                          $row =  mysqli_fetch_assoc($get_all);
-                          echo number_format($row['total']) ?? 0;
+                          $get_all = mysqli_query($connection, "SELECT * FROM `product` WHERE `status`='stock'");
+                          
+                          echo mysqli_num_rows($get_all);
+                          
+                          ?>
+
+
+
+
+                        </h3>
+                        <small class="text-success fw-semibold"><i class='bx bx-up-arrow-alt'></i><?php // echo $total_amount / 100 
+                                                                                                  ?>%</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-6 mb-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="card-title d-flex align-items-start justify-content-between">
+                          <div class="avatar flex-shrink-0">
+                            <img src="assets/img/icons/unicons/wallet-info.png" alt="Credit Card" class="rounded">
+                          </div>
+                          <div class="dropdown">
+                            <button class="btn p-0" type="button" id="cardOpt6" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <i class="bx bx-dots-vertical-rounded"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="cardOpt6">
+                              <a class="dropdown-item" href="<?php echo $domain ?>admin/products/">View More</a>
+                            
+                            </div>
+                          </div>
+                        </div>
+                        <span>Total Not Available  Proucts</span>
+                        <h3 class="card-title text-nowrap mb-1">
+
+                          <?php
+                          $get_all = mysqli_query($connection, "SELECT * FROM `product` WHERE `status`='notinsell'");
+                          
+                            echo mysqli_num_rows($get_all)
                           ?>
 
 
@@ -201,8 +309,6 @@ include('../server/connection.php');
                   </div>
                 </div>
               </div>
-             
-            </div>
 
 
 
@@ -211,6 +317,8 @@ include('../server/connection.php');
 
           </div>
           <!-- / Content -->
+
+          
 
 
 
