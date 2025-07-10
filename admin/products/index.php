@@ -160,11 +160,11 @@
                             <td>
                             <?php
 
-                                if ($status == 'unread') {
+                                if ($status == 'notinsell') {
                                   echo "<button style='text-transform: capitalize;' class='btn btn-danger'>$status</button>";
-                                } else if ($status == 'read') {
+                                } else if ($status == 'outstock') {
                                   echo "<button style='text-transform: capitalize;' class='btn btn-primary'>$status</button>";
-                                } else if ($status == 'replied') {
+                                } else if ($status == 'instock') {
                                   echo "<button style='text-transform: capitalize;' class='btn btn-success'>$status</button>";
                                 } else {
                                   echo "<button style='text-transform: capitalize;' class='btn btn-info'>$status</button>";
