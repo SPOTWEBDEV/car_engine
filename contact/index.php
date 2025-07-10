@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain?>assets/images/fav.svg">
-    <title>AutoVault - Car Dealer
+    <title><?php  echo $sitename ?> - Car Dealer
         HTML Template</title>
     <meta name="description" content="Your trusted source for expert healthcare services and car information. Providing personalized care, advanced treatments, and reliable car dealing to help you achieve better health.">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/plugins/plugins.css">
@@ -62,7 +62,7 @@
                                 </div>
                                 <div class="map-area">
                                     <i class="rt-icon-envelope"></i>
-                                    <a href="mail-to_Autovault%40gmail.html"><?php echo $short_site_address ?></a>
+                                    <a href="mail-to_<?php  echo $sitename ?>%40gmail.html"><?php echo $short_site_address ?></a>
                                 </div>
                                 <div class="map-area">
                                     <i class="rt-icon-marker"></i>
@@ -286,63 +286,7 @@
     </div>
 
     <!-- rts footer area start -->
-    <div class="rts-footer-area footer-three" id="rts-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-wrapper-style-between">
-                        <div class="single-wized logo-area">
-                            <a href="index-2.html" class="logo">
-                                <img src="<?php echo $domain?>assets/images/logo/logo.svg" width="99" alt="">
-                            </a>
-                            <p class="desc">Don’t miss out on the latest updates, exclusive offers, and insider news. Join our community and get everything</p>
-                            <form action="#">
-                                <input type="email" placeholder="Enter your email" required>
-                                <button type="submit" class="rts-btn radius-small btn-primary">Subscribe</button>
-                            </form>
-                        </div>
-                        <div class="single-wized">
-                            <h6 class="title">Contact & legal </h6>
-                            <div class="body">
-                                <ul class="nav-bottom">
-                                 <li><a href="<?php echo $domain ?>index.php">Home</a></li>
-                                    <li><a href="<?php echo $domain ?>about/index.php">About</a></li>
-                                    <li><a href="<?php echo $domain ?>shop/index.php">Shop</a></li>
-                                    <li><a href="<?php echo $domain ?>contact/index.php">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                      
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyright-area-inner d-flex align-items-center justify-content-between">
-                            <p>Copyright ©
-                                <script>
-                                    document.write(
-                                        new Date().getFullYear()
-                                    )
-                                </script>
-                                All Rights Reserved by Autovalut 
-                            </p>
-                            <div class="social-area-transparent">
-                                <ul class="d-flex align-items-center">
-                                    <li><a href="#"><img src="<?php echo $domain?>assets/images/icon/x.svg" alt=""></a></li>
-                                    <li><a href="#"><img src="<?php echo $domain?>assets/images/icon/in.svg" alt=""></a></li>
-                                    <li><a href="#"><img src="<?php echo $domain?>assets/images/icon/f.svg" alt=""></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+     <?php include('../include/footer.php')  ?>
     <!-- rts footer area end -->
     <!-- header style two -->
     <div id="side-bar" class="side-bar header-two">
@@ -386,5 +330,5 @@
 </body>
 
 
-<!-- Mirrored from html.themewant.com/autovault/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Jul 2025 17:02:26 GMT -->
+<!-- Mirrored from html.themewant.com/<?php  echo $sitename ?>/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Jul 2025 17:02:26 GMT -->
 </html>

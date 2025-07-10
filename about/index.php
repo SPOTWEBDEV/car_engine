@@ -3,13 +3,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from html.themewant.com/autovault/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Jul 2025 17:00:22 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.svg">
-    <title>AutoVault - Car Dealer
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/fav.svg">
+    <title><?php echo $sitename ?> - Car Dealer
         HTML Template</title>
     <meta name="description" content="Your trusted source for expert healthcare services and car information. Providing personalized care, advanced treatments, and reliable car dealing to help you achieve better health.">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/plugins/plugins.css">
@@ -62,14 +60,14 @@
                                 </div>
                                 <div class="map-area">
                                     <i class="rt-icon-envelope"></i>
-                                    <a href="mail-to_Autovault%40gmail.html"><?php echo $site_email ?></a>
+                                    <a href="mail-to_<?php echo $sitename ?>%40gmail.html"><?php echo $site_email ?></a>
                                 </div>
                                 <div class="map-area">
                                     <i class="rt-icon-marker"></i>
-                                    <a href="#"><?php echo $short_site_address ?></a>
+                                    <a href="#"><?php echo $long_site_address ?></a>
                                 </div>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -80,7 +78,7 @@
                                 <div class="header-wrapper-1">
                                     <div class="logo-area-start">
                                         <a href="index-2.html" class="logo">
-                                            <img src="assets/images/logo/logo.svg" width="99" alt="logo_area">
+                                            <img src="<?php echo $domain ?>assets/images/logo/logo.png" width="99" alt="logo_area">
                                         </a>
                                     </div>
                                     <div class="header-right d-block">
@@ -88,20 +86,20 @@
                                             <div class="nav-area">
                                                 <ul class="">
                                                     <li class=" main-nav">
-                                                        <a class="main-menu" href="<?php echo $domain ?>index.php">Home</a>
-                                        
+                                                        <a class="main-menu" href="<?php echo $domain ?>">Home</a>
+
                                                     </li>
 
                                                     <li class="main-nav">
-                                                        <a class="main-menu" href="<?php echo $domain ?>about/index.php">About Us</a>
+                                                        <a class="main-menu" href="<?php echo $domain ?>about/">About Us</a>
                                                     </li>
-                                                
-                                                  
+
+
                                                     <li class="main-nav ">
-                                                        <a class="main-menu" href="<?php echo $domain ?>shop/index.php">Shop</a>
-                                                        
+                                                        <a class="main-menu" href="<?php echo $domain ?>shop/">Shop</a>
+
                                                     </li>
-                                                    <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>contact/index.php">Contact</a></li>
+                                                    <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>contact/">Contact</a></li>
                                                 </ul>
                                             </div>
                                             <div class="bottom-right">
@@ -112,7 +110,7 @@
                                                             <path d="M8.61999 10.96H5.49999C5.28445 10.96 5.10999 10.7856 5.10999 10.57C5.10999 10.3545 5.28445 10.18 5.49999 10.18H8.61999C9.26518 10.18 9.78999 9.65523 9.78999 9.01004V1.99004C9.78999 1.34485 9.26518 0.820039 8.61999 0.820039H5.49999C5.28445 0.820039 5.10999 0.645579 5.10999 0.430039C5.10999 0.214499 5.28445 0.0400391 5.49999 0.0400391H8.61999C9.69522 0.0400391 10.57 0.914809 10.57 1.99004V9.01004C10.57 10.0853 9.69522 10.96 8.61999 10.96ZM7.33572 5.22431L5.38572 3.27431C5.23336 3.12195 4.98662 3.12195 4.83426 3.27431C4.6819 3.42667 4.6819 3.67341 4.83426 3.82577L6.11853 5.11004H0.819993C0.604453 5.11004 0.429993 5.2845 0.429993 5.50004C0.429993 5.71558 0.604453 5.89004 0.819993 5.89004H6.11853L4.83426 7.17431C4.6819 7.32667 4.6819 7.57341 4.83426 7.72577C4.91044 7.80195 5.01015 7.84004 5.10999 7.84004C5.20983 7.84004 5.30954 7.80195 5.38572 7.72577L7.33572 5.77577C7.48808 5.62341 7.48808 5.37667 7.33572 5.22431Z" fill="#FF3600" />
                                                         </svg>
                                                     </a>
-                                                    
+
                                                 </div>
                                                 <div class="menu-btn radius-small" id="menu-btn">
                                                     <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -159,13 +157,13 @@
                             <div class="col-lg-6">
                                 <div class="about-image-area-two">
                                     <div class="left wow scaleIn" data-wow-delay=".5s" data-wow-duration="1s">
-                                        <img src="assets/images/about/12.webp" width="339" alt="">
+                                        <img style="border:2px solid; border-radius: 10px;" src="<?php echo $domain ?>assets/images/1.jpg" width="339" alt="Car Engine Product">
                                     </div>
                                     <div class="right wow scaleIn" data-wow-delay=".5s" data-wow-duration="1s">
-                                        <img src="assets/images/about/13.webp" width="280" alt="">
+                                        <img style="border:2px solid; border-radius: 10px;" src="<?php echo $domain ?>assets/images/2.jpg" width="280" alt="Our Store">
                                         <div class="counter-area">
-                                            <h2 class="title"><span class="counter">1000</span><span>+</span></h2>
-                                            <p class="desc">Car Sold Already</p>
+                                            <h2 class="title"><span class="counter">500</span><span>+</span></h2>
+                                            <p class="desc">Engines & Parts Sold</p>
                                         </div>
                                     </div>
                                 </div>
@@ -173,22 +171,22 @@
                             <div class="col-lg-6">
                                 <div class="about-content-area">
                                     <div class="section-title-area">
-                                        <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">About
-                                            Us</p>
-                                        <h2 class="section-title wow move-right">Driven by Excellence: Your Trusted Partner for Premium
-                                            <span>Vehicles</span>
+                                        <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">About Us</p>
+                                        <h2 class="section-title wow move-right">
+                                            Quality You Can Trust: Explore & Visit for
+                                            <span>Engine Products</span>
                                         </h2>
                                     </div>
-                                    <p class="desc wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">Welcome to Autovault where innovation drives every journey. Discover a
-                                        range
-                                        of designed to elevate your driving experience.</p>
-                                    <a href="call-to_%2b12505550199.html" class="rts-btn call-btn wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">
+                                    <p class="desc wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s">
+                                        Welcome to <?php echo $sitename ?> — your reliable source for high-performance car engine parts and accessories. Browse our range of products online, then visit our store to see them up close and make your purchase. We’re here to keep your vehicle running at its best.
+                                    </p>
+                                    <a href="<?php echo $domain ?>shop/" class="rts-btn call-btn wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s">
                                         <span>
-                                            <i class="fa-regular fa-phone"></i>
+                                            <i class="fa-solid fa-shop"></i>
                                         </span>
                                         <div class="content">
-                                            <h6>Call Us Now</h6>
-                                            <p>+12505550199</p>
+                                            <h6>Visit Our Store</h6>
+                                            <p>See & Buy In-Store</p>
                                         </div>
                                     </a>
                                 </div>
@@ -197,10 +195,11 @@
                     </div>
                 </div>
                 <div class="bg-shape-area">
-                    <img src="assets/images/category/shape/shape-01.svg" alt="">
-                    <img src="assets/images/category/shape/shape-02.svg" alt="">
+                    <img src="<?php echo $domain ?>assets/images/category/shape/shape-01.svg" alt="">
+                    <img src="<?php echo $domain ?>assets/images/category/shape/shape-02.svg" alt="">
                 </div>
             </section>
+
             <!-- About Area End -->
             <!-- Counter Area Start -->
             <section class="rts-counter-area-two">
@@ -208,58 +207,63 @@
                     <div class="counter-inner">
                         <div class="inner wow zoomIn" data-wow-delay=".2s" data-wow-duration="1s">
                             <div class="icon">
-                                <img src="assets/images/counter/icon-01.svg" width="74" alt="">
+                                <img src="<?php echo $domain ?>assets/images/counter/icon-01.svg" width="74" alt="">
                             </div>
                             <div class="text">
-                                <h3 class="title"><span class="counter">320</span><span>M</span></h3>
-                                <p class="desc">Cars For Sale</p>
+                                <h3 class="title"><span class="counter">500</span><span>K</span></h3>
+                                <p class="desc">Engine Parts Sold</p>
                             </div>
                         </div>
+
                         <div class="inner wow zoomIn" data-wow-delay=".4s" data-wow-duration="1s">
                             <div class="icon">
-                                <img src="assets/images/counter/icon-02.svg" alt="">
+                                <img src="<?php echo $domain ?>assets/images/counter/icon-02.svg" alt="">
                             </div>
                             <div class="text">
-                                <h3 class="title"><span class="counter">5500</span><span>+</span></h3>
-                                <p class="desc">Dealer Review</p>
+                                <h3 class="title"><span class="counter">3500</span><span>+</span></h3>
+                                <p class="desc">Happy Customers</p>
                             </div>
                         </div>
+
                         <div class="inner wow zoomIn" data-wow-delay=".6s" data-wow-duration="1s">
                             <div class="icon">
-                                <img src="assets/images/counter/icon-03.svg" alt="">
+                                <img src="<?php echo $domain ?>assets/images/counter/icon-03.svg" alt="">
                             </div>
                             <div class="text">
-                                <h3 class="title"><span class="counter">300</span><span>M</span></h3>
-                                <p class="desc">Verified User</p>
+                                <h3 class="title"><span class="counter">1200</span><span>+</span></h3>
+                                <p class="desc">Verified Mechanics</p>
                             </div>
                         </div>
+
                         <div class="inner wow zoomIn" data-wow-delay=".8s" data-wow-duration="1s">
                             <div class="icon">
-                                <img src="assets/images/counter/icon-04.svg" alt="">
+                                <img src="<?php echo $domain ?>assets/images/counter/icon-04.svg" alt="">
                             </div>
                             <div class="text">
-                                <h3 class="title"><span class="counter">10</span><span>M</span></h3>
-                                <p class="desc">Visitor Per Day</p>
+                                <h3 class="title"><span class="counter">25</span><span>K</span></h3>
+                                <p class="desc">Daily Visitors</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+
             <!-- Counter Area End -->
             <!-- Testimonials Area Start -->
             <section class="rts-testimonials-area area-2 rts-section-gap">
                 <div class="bg-shape-area">
                 </div>
                 <div class="shape wow slideInLeft" data-wow-delay=".5s" data-wow-duration="2s">
-                    <img src="assets/images/testimonials/03.webp" width="1107" alt="">
+                    <img src="<?php echo $domain ?>assets/images/testimonials/03.webp" width="1107" alt="">
                 </div>
                 <div class="container">
                     <div class="section-inner">
                         <div class="row align-items-center justify-content-end">
                             <div class="col-xl-5">
                                 <div class="section-title-area">
-                                    <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">Testimonial</p>
-                                    <h2 class="section-title wow move-right">What Our <span>Client</span> Says
+                                    <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration=".8s">Testimonials</p>
+                                    <h2 class="section-title wow move-right">
+                                        What Our <span>Customers</span> Say
                                     </h2>
                                 </div>
                                 <div class="slider-inner mt--50">
@@ -268,94 +272,83 @@
                                             <div class="swiper-slide">
                                                 <div class="review-wrapper">
                                                     <p class="desc">
-                                                        Choosing Bokinn was one of the best decisions we've ever made. They
-                                                        have proven to be a reliable and innovative partner, always ready to
-                                                        tackle new challenges with and expertise.Their commitment to and
-                                                        delivering tailored.
+                                                        The engine part I bought from <?php echo $sitename ?> worked perfectly and gave my car a new life! Great quality and knowledgeable staff who helped me choose the right part. Highly recommend visiting their store.
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
                                                         <div class="image">
-                                                            <img src="assets/images/testimonials/author-01.svg" alt="">
+                                                            <img src="<?php echo $domain ?>assets/images/testimonials/author-01.svg" alt="">
                                                         </div>
                                                         <div class="text">
-                                                            <h6 class="title">Sarah Martinez</h6>
-                                                            <p class="designation">CEO of Apex Solutions</p>
+                                                            <h6 class="title">Michael Adams</h6>
+                                                            <p class="designation">Car Owner</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="swiper-slide">
                                                 <div class="review-wrapper">
                                                     <p class="desc">
-                                                        Choosing Bokinn was one of the best decisions we've ever made. They
-                                                        have proven to be a reliable and innovative partner, always ready to
-                                                        tackle new challenges with and expertise.Their commitment to and
-                                                        delivering tailored.
+                                                        I was impressed with the variety of engine products available. I checked the products online, then visited the store to pick them up. Everything fit perfectly, and my mechanic was impressed too!
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
                                                         <div class="image">
-                                                            <img src="assets/images/testimonials/author-01.svg" alt="">
+                                                            <img src="<?php echo $domain ?>assets/images/testimonials/author-02.svg" alt="">
                                                         </div>
                                                         <div class="text">
-                                                            <h6 class="title">Sarah Martinez</h6>
-                                                            <p class="designation">CEO of Apex Solutions</p>
+                                                            <h6 class="title">Laura Chen</h6>
+                                                            <p class="designation">Auto Enthusiast</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="swiper-slide">
                                                 <div class="review-wrapper">
                                                     <p class="desc">
-                                                        Choosing Bokinn was one of the best decisions we've ever made. They
-                                                        have proven to be a reliable and innovative partner, always ready to
-                                                        tackle new challenges with and expertise.Their commitment to and
-                                                        delivering tailored.
+                                                        <?php echo $sitename ?> is my go-to for car engine parts. The parts are durable, affordable, and the team is friendly and professional. My car runs smoother than ever!
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
                                                         <div class="image">
-                                                            <img src="assets/images/testimonials/author-01.svg" alt="">
+                                                            <img src="<?php echo $domain ?>assets/images/testimonials/author-03.svg" alt="">
                                                         </div>
                                                         <div class="text">
-                                                            <h6 class="title">Sarah Martinez</h6>
-                                                            <p class="designation">CEO of Apex Solutions</p>
+                                                            <h6 class="title">James Miller</h6>
+                                                            <p class="designation">Fleet Manager</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="swiper-slide">
                                                 <div class="review-wrapper">
                                                     <p class="desc">
-                                                        Choosing Bokinn was one of the best decisions we've ever made. They
-                                                        have proven to be a reliable and innovative partner, always ready to
-                                                        tackle new challenges with and expertise.Their commitment to and
-                                                        delivering tailored.
+                                                        The staff helped me choose exactly what my car needed. The product quality was top-notch, and I could see the difference right away after installation. Thanks, <?php echo $sitename ?>!
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
                                                         <div class="image">
-                                                            <img src="assets/images/testimonials/author-01.svg" alt="">
+                                                            <img src="<?php echo $domain ?>assets/images/testimonials/author-04.svg" alt="">
                                                         </div>
                                                         <div class="text">
-                                                            <h6 class="title">Sarah Martinez</h6>
-                                                            <p class="designation">CEO of Apex Solutions</p>
+                                                            <h6 class="title">Sophia Johnson</h6>
+                                                            <p class="designation">Satisfied Customer</p>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+
                                             <div class="swiper-slide">
                                                 <div class="review-wrapper">
                                                     <p class="desc">
-                                                        Choosing Bokinn was one of the best decisions we've ever made. They
-                                                        have proven to be a reliable and innovative partner, always ready to
-                                                        tackle new challenges with and expertise.Their commitment to and
-                                                        delivering tailored.
+                                                        Excellent service and excellent products. I was able to find the exact engine part I needed quickly and at a good price. I’ll definitely shop here again for future needs.
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
                                                         <div class="image">
-                                                            <img src="assets/images/testimonials/author-01.svg" alt="">
+                                                            <img src="<?php echo $domain ?>assets/images/testimonials/author-05.svg" alt="">
                                                         </div>
                                                         <div class="text">
-                                                            <h6 class="title">Sarah Martinez</h6>
-                                                            <p class="designation">CEO of Apex Solutions</p>
+                                                            <h6 class="title">Daniel Smith</h6>
+                                                            <p class="designation">Local Mechanic</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -369,6 +362,7 @@
                     </div>
                 </div>
             </section>
+
             <!-- Testimonials Area End -->
             <!-- Team Area Start -->
             <section class="rts-team-area rts-section-gap">
@@ -383,7 +377,7 @@
                                 <div class="team-wrapper">
                                     <div class="image-area">
                                         <a href="#">
-                                            <img src="assets/images/team/01.webp" alt="">
+                                            <img src="<?php echo $domain ?>assets/images/team/01.webp" alt="">
                                         </a>
                                         <div class="content">
                                             <h6 class="title cw">Amelia Scot</h6>
@@ -396,7 +390,7 @@
                                 <div class="team-wrapper">
                                     <div class="image-area">
                                         <a href="#">
-                                            <img src="assets/images/team/02.webp" alt="">
+                                            <img src="<?php echo $domain ?>assets/images/team/02.webp" alt="">
                                         </a>
                                         <div class="content">
                                             <h6 class="title cw">Michael Roy</h6>
@@ -409,7 +403,7 @@
                                 <div class="team-wrapper">
                                     <div class="image-area">
                                         <a href="#">
-                                            <img src="assets/images/team/03.webp" alt="">
+                                            <img src="<?php echo $domain ?>assets/images/team/03.webp" alt="">
                                         </a>
                                         <div class="content">
                                             <h6 class="title cw">Emma Elizabeth</h6>
@@ -422,7 +416,7 @@
                                 <div class="team-wrapper">
                                     <div class="image-area">
                                         <a href="#">
-                                            <img src="assets/images/team/04.webp" alt="">
+                                            <img src="<?php echo $domain ?>assets/images/team/04.webp" alt="">
                                         </a>
                                         <div class="content">
                                             <h6 class="title cw">Michael Roy</h6>
@@ -445,13 +439,13 @@
                     </div>
                     <div class="section-inner mt--80">
                         <ul>
-                            <li class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s"><img src="assets/images/brand/01-w.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s"><img src="assets/images/brand/02.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s"><img src="assets/images/brand/03.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s"><img src="assets/images/brand/04.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s"><img src="assets/images/brand/05.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1s"><img src="assets/images/brand/06.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="assets/images/brand/07.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/01-w.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/02.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/03.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/04.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/05.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/06.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/07.svg" alt=""></li>
                         </ul>
                     </div>
                 </div>
@@ -463,16 +457,16 @@
                         <h2 class="title">If you have any questions Please Call.</h2>
                         <div class="contact">
                             <a href="call-to_%2b16544521505.html">
-                                <img src="assets/images/cta/call.svg" alt="">
+                                <img src="<?php echo $domain ?>assets/images/cta/call.svg" alt="">
                                 <?php echo $Short_number ?> <br><br>
                                 +244 935 459 394 <br><br>
-                                +244  942 735 262 <br><br>
-                            
-                            
-                            </a> 
+                                +244 942 735 262 <br><br>
+
+
+                            </a>
                         </div>
-                        <img class="shape one" src="assets/images/cta/round.svg" alt="">
-                        <img class="shape two" src="assets/images/cta/line.svg" alt="">
+                        <img class="shape one" src="<?php echo $domain ?>assets/images/cta/round.svg" alt="">
+                        <img class="shape two" src="<?php echo $domain ?>assets/images/cta/line.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -480,58 +474,7 @@
     </div>
 
     <!-- rts footer area start -->
-    <div class="rts-footer-area footer-three" id="rts-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-wrapper-style-between">
-                        <div class="single-wized logo-area">
-                            <a href="index-2.html" class="logo">
-                                <img src="assets/images/logo/logo.svg" width="99" alt="">
-                            </a>
-                            <p class="desc">Don’t miss out on the latest updates, exclusive offers, and insider news. Join our community and get everything</p>
-                            <form action="#">
-                                <input type="email" placeholder="Enter your email" required>
-                                <button type="submit" class="rts-btn radius-small btn-primary">Subscribe</button>
-                            </form>
-                        </div>
-                        <div class="single-wized">
-                            <h6 class="title">Contact & legal </h6>
-                            <div class="body">
-                                <ul class="nav-bottom">
-                                <li><a href="<?php echo $domain ?>index.php">Home</a></li>
-                                    <li><a href="<?php echo $domain ?>about/index.php">About</a></li>
-                                    <li><a href="<?php echo $domain ?>shop/index.php">Shop</a></li>
-                                    <li><a href="<?php echo $domain ?>contact/index.php">Contact</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                       
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyright-area-inner d-flex align-items-center justify-content-between">
-                            <p>Copyright ©
-                                <script>
-                                    document.write(
-                                        new Date().getFullYear()
-                                    )
-                                </script>
-                                All Rights Reserved by Autovalut 
-                            </p>
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include('../include/footer.php')  ?>
     <!-- rts footer area end -->
     <!-- header style two -->
     <div id="side-bar" class="side-bar header-two">
@@ -541,19 +484,19 @@
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
                     <li class="">
-                        <a href="<?php echo $domain ?>index.php" class="main">Home</a>
-                       
+                        <a href="<?php echo $domain ?>" class="main">Home</a>
+
                     </li>
-                    <li><a href="<?php echo $domain ?>about/about.php" class="main">About</a></li>
+                    <li><a href="<?php echo $domain ?>about/" class="main">About</a></li>
                     <li class="has-droupdown">
-                        <a href="<?php echo $domain ?>shop/index.php" class="main">Shop</a>
-                    
+                        <a href="<?php echo $domain ?>shop/" class="main">Shop</a>
+
                     </li>
-                    <li><a href="<?php echo $domain ?>contact.php" class="main">Contact</a></li>
+                    <li><a href="<?php echo $domain ?>contact/" class="main">Contact</a></li>
                 </ul>
             </nav>
 
-           
+
         </div>
         <!-- mobile menu area end -->
     </div>
@@ -571,9 +514,7 @@
     <script src="<?php echo $domain ?>assets/js/vendor/bootstrap.min.js"></script>
     <script src="<?php echo $domain ?>assets/js/vendor/waypoint.js"></script>
     <!-- main js here -->
-    <script src="<?php echo $domain ?> assets/js/main.js"></script>
+    <script src="<?php echo $domain ?>assets/js/main.js"></script>
 </body>
 
-
-<!-- Mirrored from html.themewant.com/autovault/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Jul 2025 17:00:25 GMT -->
 </html>
