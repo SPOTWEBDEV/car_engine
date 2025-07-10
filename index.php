@@ -19,12 +19,7 @@
 </head>
 
 <body class="home-four">
-    <div class="loader-wrapper">
-        <div class="loader">
-        </div>
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-    </div>
+    
     <div class="search-input-area">
         <div class="container">
             <div class="search-input-inner">
@@ -876,8 +871,4 @@
     <!-- main js here -->
     <script src="<?php echo $domain ?>assets/js/main.js"></script>
 </body>
-
-
-<!-- Mirrored from html.themewant.com/<?php echo $sitename ?>/index-four.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Jul 2025 16:57:32 GMT -->
-
 </html>

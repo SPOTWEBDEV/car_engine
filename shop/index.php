@@ -57,12 +57,7 @@ $query = mysqli_query($connection, "
 </head>
 
 <body>
-    <div class="loader-wrapper">
-        <div class="loader">
-        </div>
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-    </div>
+    
     <div class="search-input-area">
         <div class="container">
             <div class="search-input-inner">
