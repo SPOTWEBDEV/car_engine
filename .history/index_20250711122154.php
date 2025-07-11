@@ -164,7 +164,7 @@
                                     <div class="banner-inner">
                                         <h2 class="section-title cw">Shop for Quality <br> Car Parts</h2>
                                         <div class="button-area">
-                                            <a href="<?php echo $domain ?>admin/product/index.php" class="rts-btn btn-primary radius-big">Get Started Now</a>
+                                            <a href="<?php echo $domain ?>shop/index.php" class="rts-btn btn-primary radius-big">Get Started Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@
                                     <div class="banner-inner">
                                         <h2 class="section-title cw">Shop for Quality <br> Car Parts</h2>
                                         <div class="button-area">
-                                            <a href="<?php echo $domain ?>admin/product/index.php" class="rts-btn btn-primary radius-big">Get Started Now</a>
+                                            <a href="contact.html" class="rts-btn btn-primary radius-big">Get Started Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -448,7 +448,7 @@
                             <div class="col-lg-6 col-md-12">
                                 <div class="cta-wrapper">
                                     <div class="image-area jarallax jara-mask-1">
-                                        <img src="assets/images/cta/03.jpg" class="jarallax-img" alt="">
+                                        <img src="assets/images/cta/01.webp" class="jarallax-img" alt="">
                                     </div>
                                     <div class="content">
                                         <span class="tag radius-big">30% Off</span>
@@ -459,7 +459,7 @@
                             <div class="col-lg-6 col-md-12">
                                 <div class="cta-wrapper">
                                     <div class="image-area jarallax jara-mask-1">
-                                        <img src="assets/images/cta/04.jpg" class="jarallax-img" alt="">
+                                        <img src="assets/images/cta/02.webp" class="jarallax-img" alt="">
                                     </div>
                                     <div class="content">
                                         <span class="tag radius-big">30% Off</span>
@@ -498,7 +498,7 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <div class="testimonial-image-area3">
-                                                <img src="assets/images/testimonials/05.webp" width="512" alt="">
+                                                <img src="assets/images/testimonials/" width="512" alt="">
                                                 <div class="author-content">
                                                     <div class="inner">
                                                         <h5 class="title">Nathan Macks</h5>

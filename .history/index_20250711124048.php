@@ -164,7 +164,7 @@
                                     <div class="banner-inner">
                                         <h2 class="section-title cw">Shop for Quality <br> Car Parts</h2>
                                         <div class="button-area">
-                                            <a href="<?php echo $domain ?>admin/product/index.php" class="rts-btn btn-primary radius-big">Get Started Now</a>
+                                            <a href="<?php echo $domain ?>shop/index.php" class="rts-btn btn-primary radius-big">Get Started Now</a>
                                         </div>
                                     </div>
                                 </div>
@@ -176,7 +176,7 @@
                                     <div class="banner-inner">
                                         <h2 class="section-title cw">Shop for Quality <br> Car Parts</h2>
                                         <div class="button-area">
-                                            <a href="<?php echo $domain ?>admin/product/index.php" class="rts-btn btn-primary radius-big">Get Started Now</a>
+                                            <a href="<?php echo $domain ?>" class="rts-btn btn-primary radius-big">Get Started Now</a>
                                         </div>
                                     </div>
                                 </div>

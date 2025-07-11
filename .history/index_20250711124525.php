@@ -184,7 +184,7 @@
                         </div>
                     </div>
                     <div class="swiper-btn-area">
-                        <div class="swiper-btn swiper-button-prev"><img src="assets/images/banner/arrow-left.svg" alt=""></div>
+                        <div class="swiper-btn swiper-button-prev"><img src="assets/images/05.jpg.s" alt=""></div>
                         <div class="swiper-btn swiper-button-next"><img src="assets/images/banner/arrow-right.svg" alt=""></div>
                     </div>
                 </div>
