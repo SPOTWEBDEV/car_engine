@@ -30,7 +30,6 @@
             </div>
         </div>
         <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
-        
     </div>
     <div id="anywhere-home">
     </div>

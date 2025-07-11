@@ -30,7 +30,6 @@
             </div>
         </div>
         <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
-        
     </div>
     <div id="anywhere-home">
     </div>
@@ -272,11 +271,7 @@
                             <a href="call-to_%2b16544521505.html">
                                 <img src="<?php echo $domain?>assets/images/cta/call.svg" alt="">
                                 <?php echo $Short_number?> <br><br>
-                                   +244  
-                                   +244                           <br><br>
-                                                            <br><br>
-
-                                                               
+                                
                             </a>
                         </div>
                         <img class="shape one" src="<?php echo $domain?>assets/images/cta/round.svg" alt="">
