@@ -585,7 +585,7 @@
             <div class="rts-video-area  bg_image">
 
 
-                <!-- <img src="assets/images/1.jpg" alt=""> -->
+                <img src="assets/images/1.jpg" alt="">
 
 
 

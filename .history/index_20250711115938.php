@@ -19,7 +19,7 @@
 </head>
 
 <body class="home-four">
-    <?php include('./translator/index.php')  ?> 
+    <!-- <?php include('./translator/index.php')  ?> 
     <div class="search-input-area">
         <div class="container">
             <div class="search-input-inner">
