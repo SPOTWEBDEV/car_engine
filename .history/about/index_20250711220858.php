@@ -364,7 +364,10 @@
                                         <a href="#">
                                             <img src="<?php echo $domain ?>assets/images/4.jpg" alt="">
                                         </a>
-                                      
+                                        <div class="content">
+                                            <h6 class="title cw"></h6>
+                                            <!-- <p class="designation cw">Office Executive</p> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -374,10 +377,10 @@
                                         <a href="#">
                                             <img src="<?php echo $domain ?>assets/images/5.jpg" alt="">
                                         </a>
-                                        <!-- <div class="content">
+                                        <div class="content">
                                             <h6 class="title cw"></h6>
-                                            <p class="designation cw">Manager</p>
-                                        </div> -->
+                                            <!-- <p class="designation cw">Manager</p> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -387,7 +390,10 @@
                                         <a href="#">
                                             <img src="<?php echo $domain ?>assets/images/6.jpg" alt="">
                                         </a>
-                                     
+                                        <div class="content">
+                                            <h6 class="title cw"></h6>
+                                            <!-- <p class="designation cw">Office Executive</p> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>

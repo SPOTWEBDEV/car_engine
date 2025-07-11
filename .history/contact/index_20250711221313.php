@@ -230,9 +230,7 @@
                         <div class="contact">
                             <a href="call-to_%2b16544521505.html">
                                 <img src="<?php echo $domain?>assets/images/cta/call.svg" alt="">
-                                <?php echo $sitephone_number ?> <br> <br>     
-                                  +244                               <br><br> 
-                                                                 <br><br>             
+                                <?php echo $sitephone_number ?> br     
                             
                             
                             </a>

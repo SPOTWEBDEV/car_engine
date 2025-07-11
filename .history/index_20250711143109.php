@@ -19,7 +19,7 @@
 </head>
 
 <body class="home-four">
-
+    <?php include('./translator/index.php')  ?> 
     <div class="search-input-area">
         <div class="container">
             <div class="search-input-inner">
@@ -597,7 +597,7 @@
 
             <!-- Blog Area Start -->
             <section class="rts-blog-area rts-section-gap ">
-                <div class="container ">
+                <div class="container mt--50">
                     <div class="section-title-area2">
                         <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">Latest Products</p>
                         <h2 class="section-title wow move-right">Our Latest <span>Products</span></h2>
@@ -820,7 +820,7 @@
 
                     </li>
 
-                    <li><a href="<?php echo $domain ?>about/index.php" class="main">About</a></li>
+                    <li><a href="<?php echo $domain ?>about/about.php" class="main">About</a></li>
                     <li class="">
                         <a href="<?php echo $domain ?>shop/index.php" class="main">Shop</a>
                     </li>

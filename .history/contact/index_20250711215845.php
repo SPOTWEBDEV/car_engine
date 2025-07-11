@@ -230,12 +230,7 @@
                         <div class="contact">
                             <a href="call-to_%2b16544521505.html">
                                 <img src="<?php echo $domain?>assets/images/cta/call.svg" alt="">
-                                <?php echo $sitephone_number ?> <br> <br>     
-                                  +244                               <br><br> 
-                                                                 <br><br>             
-                            
-                            
-                            </a>
+                                +1-654-452-1505</a>
                         </div>
                         <img class="shape one" src="<?php echo $domain ?>assets/images/cta/round.svg" alt="">
                         <img class="shape two" src="<?php echo $domain ?>assets/images/cta/line.svg" alt="">
@@ -264,7 +259,7 @@
                         <a href="<?php echo $domain ?>shop/index.php" class="main">Shop</a>
 
                     </li>
-                    <li><a href="<?php echo $domain ?><?php echo $domain ?>contact/index.php" class="main">Contact</a></li>
+                    <li><a href="<?php echo $domain ?><?php echo $domain ?>contact/.php" class="main">Contact</a></li>
                 </ul>
             </nav>
 

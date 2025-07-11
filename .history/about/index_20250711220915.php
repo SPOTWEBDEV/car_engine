@@ -364,7 +364,10 @@
                                         <a href="#">
                                             <img src="<?php echo $domain ?>assets/images/4.jpg" alt="">
                                         </a>
-                                      
+                                        <div class="content">
+                                            <h6 class="title cw"></h6>
+                                            <!-- <p class="designation cw">Office Executive</p> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>

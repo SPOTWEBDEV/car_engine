@@ -364,7 +364,10 @@
                                         <a href="#">
                                             <img src="<?php echo $domain ?>assets/images/4.jpg" alt="">
                                         </a>
-                                      
+                                        <div class="content">
+                                            <h6 class="title cw"></h6>
+                                            <p class="designation cw">Office Executive</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -374,10 +377,10 @@
                                         <a href="#">
                                             <img src="<?php echo $domain ?>assets/images/5.jpg" alt="">
                                         </a>
-                                        <!-- <div class="content">
+                                        <div class="content">
                                             <h6 class="title cw"></h6>
                                             <p class="designation cw">Manager</p>
-                                        </div> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -387,7 +390,10 @@
                                         <a href="#">
                                             <img src="<?php echo $domain ?>assets/images/6.jpg" alt="">
                                         </a>
-                                     
+                                        <div class="content">
+                                            <h6 class="title cw"></h6>
+                                            <!-- <p class="designation cw">Office Executive</p> -->
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -397,7 +403,10 @@
                                         <a href="#">
                                             <img src="<?php echo $domain ?>assets/images/7.jpg" alt="">
                                         </a>
-                                      
+                                        <div class="content">
+                                            <h6 class="title cw"></h6>
+                                            <p class="designation cw">Manager</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -464,7 +473,7 @@
 
                     </li>
                     <li><a href="<?php echo $domain ?>about/" class="main">About</a></li>
-                    <li class="">
+                    <li class="has-droupdown">
                         <a href="<?php echo $domain ?>shop/" class="main">Shop</a>
 
                     </li>

@@ -19,7 +19,7 @@
 </head>
 
 <body class="home-four">
-
+    <?php include('./translator/index.php')  ?> 
     <div class="search-input-area">
         <div class="container">
             <div class="search-input-inner">
@@ -820,7 +820,7 @@
 
                     </li>
 
-                    <li><a href="<?php echo $domain ?>about/index.php" class="main">About</a></li>
+                    <li><a href="<?php echo $domain ?>about/about.php" class="main">About</a></li>
                     <li class="">
                         <a href="<?php echo $domain ?>shop/index.php" class="main">Shop</a>
                     </li>
