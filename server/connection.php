@@ -65,8 +65,8 @@ session_start();
 $host = 'mail.josemaka.com';
 $sitename = "Josemaka";
 $site_email = "lijezzy4real@yahool.com";
-$long_number = "+244 928 602 665 / 935 459 394  / 942 735 262 ";
-$Short_number = "+244 928 602 665";
-$long_site_address = "Ru 17  setembro Bairro golf 1 ao lado do Hospital Avokumbi Kilamba Kiaxi luandam-Angola loja Zone A 21";
-$short_site_address = "Weston, New York";
+$sitephone_number = "+244 928 602 665";
+$siteaddress = "Ru 17  setembro Bairro golf 1 ao lado do Hospital Avokumbi Kilamba Kiaxi luandam-Angola loja Zone A 21";
+$siteshortaddress = 'Avokumbi Kilamba Kiaxi luandam-Angola';
+
 ?>

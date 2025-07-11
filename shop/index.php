@@ -57,7 +57,7 @@ $query = mysqli_query($connection, "
 </head>
 
 <body>
-    
+
     <div class="search-input-area">
         <div class="container">
             <div class="search-input-inner">
@@ -90,7 +90,7 @@ $query = mysqli_query($connection, "
                             <div class="left d-flex align-items-center">
                                 <div class="map-area">
                                     <i class="rt-icon-phone-flip"></i>
-                                    <a href="call-to_12505550199"><?php echo $Short_number ?></a>
+                                    <a href="call-to_12505550199"><?php echo $sitephone_number ?></a>
                                 </div>
                                 <div class="map-area">
                                     <i class="rt-icon-envelope"></i>
@@ -98,7 +98,7 @@ $query = mysqli_query($connection, "
                                 </div>
                                 <div class="map-area">
                                     <i class="rt-icon-marker"></i>
-                                    <a href="#"><?php echo $short_site_address ?></a>
+                                    <a href="#"><?php echo $siteaddress ?></a>
                                 </div>
                             </div>
 
@@ -220,10 +220,7 @@ $query = mysqli_query($connection, "
                                             </a>
                                         </h6>
                                         <div class="button-area">
-                                            <p>$<?= number_format(rand(100, 999)) ?></p> <!-- replace with real price if available -->
-                                            <a href="cart.php?add=<?= $row['id'] ?>" class="rts-btn btn-primary radius-big icon">
-                                                Add To Cart
-                                            </a>
+                                            <p>In-Store Purchase Only</p> <!-- replace with real price if available -->
                                         </div>
                                     </div>
                                 </div>
@@ -241,7 +238,7 @@ $query = mysqli_query($connection, "
                         <div class="contact">
                             <a href="call-to_%2b16544521505.html">
                                 <img src="assets/images/cta/call.svg" alt="">
-                                <?php echo $Short_number ?> <br> <br>
+                                <?php echo $sitephone_number ?> <br> <br>
                                 +244 935 459 394 <br> <br>
                                 +244 942 735 262
 

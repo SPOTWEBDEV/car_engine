@@ -16549,10 +16549,8 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 
 .rts-video-area {
-  position: relative;
-  overflow: hidden;
   display: block;
-  background: url(../images/banner/banner-bg-01.webp);
+  background: url(../images/4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

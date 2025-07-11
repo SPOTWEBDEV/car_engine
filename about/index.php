@@ -51,7 +51,7 @@
                             <div class="left d-flex align-items-center">
                                 <div class="map-area">
                                     <i class="rt-icon-phone-flip"></i>
-                                    <a href="call-to_12505550199"><?php echo $Short_number ?></a>
+                                    <a href="call-to_12505550199"><?php echo $sitephone_number ?></a>
                                 </div>
                                 <div class="map-area">
                                     <i class="rt-icon-envelope"></i>
@@ -59,7 +59,7 @@
                                 </div>
                                 <div class="map-area">
                                     <i class="rt-icon-marker"></i>
-                                    <a href="#"><?php echo $long_site_address ?></a>
+                                    <a href="#"><?php echo $siteaddress ?></a>
                                 </div>
                             </div>
 
@@ -453,7 +453,7 @@
                         <div class="contact">
                             <a href="call-to_%2b16544521505.html">
                                 <img src="<?php echo $domain ?>assets/images/cta/call.svg" alt="">
-                                <?php echo $Short_number ?> <br><br>
+                                <?php echo $sitephone_number ?> <br><br>
                                 +244 935 459 394 <br><br>
                                 +244 942 735 262 <br><br>
 
