@@ -596,7 +596,7 @@
 
 
             <!-- Blog Area Start -->
-            <section class="rts-blog-area rts-section-gap ">
+            <section class="rts-blog-area rts-section-gap">
                 <div class="container">
                     <div class="section-title-area2">
                         <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">Latest Products</p>
@@ -607,7 +607,7 @@
                             <div class="col-lg-6">
                                 <div class="blog-wrapper">
                                     <div class="image-area">
-                                        <a href="blog-details.html"><img src="assets/images/6.jpg" alt=""></a>
+                                        <a href="blog-details.html"><img src="assets/images/blog/04.webp" alt=""></a>
                                     </div>
                                     <div class="content">
                                         <p class="blog-meta">Available Now</p>

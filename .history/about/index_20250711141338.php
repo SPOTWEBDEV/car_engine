@@ -270,7 +270,9 @@
                                                         The engine part I bought from <?php echo $sitename ?> worked perfectly and gave my car a new life! Great quality and knowledgeable staff who helped me choose the right part. Highly recommend visiting their store.
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                       
+                                                        <div class="image">
+                                                        
+                                                        </div>
                                                         <div class="text">
                                                             <h6 class="title">Rafael Costa</h6>
                                                             <p class="designation">Car Owner</p>

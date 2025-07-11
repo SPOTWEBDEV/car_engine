@@ -597,7 +597,7 @@
 
             <!-- Blog Area Start -->
             <section class="rts-blog-area rts-section-gap ">
-                <div class="container">
+                <div class="containe mr">
                     <div class="section-title-area2">
                         <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">Latest Products</p>
                         <h2 class="section-title wow move-right">Our Latest <span>Products</span></h2>

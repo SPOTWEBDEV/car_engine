@@ -596,7 +596,7 @@
 
 
             <!-- Blog Area Start -->
-            <section class="rts-blog-area rts-section-gap ">
+            <section class="rts-blog-area rts-section-gap">
                 <div class="container">
                     <div class="section-title-area2">
                         <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">Latest Products</p>
@@ -619,7 +619,7 @@
                                 <div class="blog-list-style mb--30">
                                     <div class="blog-wrapper d-flex align-items-center">
                                         <div class="image-area">
-                                            <a href="blog-details.html"><img src="assets/images/5.jpg" width="263" alt=""></a>
+                                            <a href="blog-details.html"><img src="assets/images/5.jp" width="263" alt=""></a>
                                         </div>
                                         <div class="content mt-0">
                                             <p class="blog-meta">In Stock</p>
@@ -630,7 +630,7 @@
                                 <div class="blog-list-style">
                                     <div class="blog-wrapper d-flex align-items-center">
                                         <div class="image-area">
-                                            <a href="blog-details.html"><img src="assets/images/7.jpg" width="263" alt=""></a>
+                                            <a href="blog-details.html"><img src="assets/images/blog/04.webp" width="263" alt=""></a>
                                         </div>
                                         <div class="content mt-0">
                                             <p class="blog-meta">In Stock</p>

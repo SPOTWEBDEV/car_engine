@@ -270,7 +270,9 @@
                                                         The engine part I bought from <?php echo $sitename ?> worked perfectly and gave my car a new life! Great quality and knowledgeable staff who helped me choose the right part. Highly recommend visiting their store.
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                       
+                                                        <div class="image">
+                                                        
+                                                        </div>
                                                         <div class="text">
                                                             <h6 class="title">Rafael Costa</h6>
                                                             <p class="designation">Car Owner</p>
@@ -285,7 +287,9 @@
                                                         I was impressed with the variety of engine products available. I checked the products online, then visited the store to pick them up. Everything fit perfectly, and my mechanic was impressed too!
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                        
+                                                        <div class="image">
+                                                          
+                                                        </div>
                                                         <div class="text">
                                                             <h6 class="title">Beatriz Silva</h6>
                                                             <p class="designation">Auto Enthusiast</p>
@@ -300,7 +304,9 @@
                                                         <?php echo $sitename ?> is my go-to for car engine parts. The parts are durable, affordable, and the team is friendly and professional. My car runs smoother than ever!
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                     
+                                                        <div class="image">
+                                                      
+                                                        </div>
                                                         <div class="text">
                                                             <h6 class="title">Lucas Almeida</h6>
                                                             <p class="designation">Fleet Manager</p>

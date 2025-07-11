@@ -270,9 +270,11 @@
                                                         The engine part I bought from <?php echo $sitename ?> worked perfectly and gave my car a new life! Great quality and knowledgeable staff who helped me choose the right part. Highly recommend visiting their store.
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                       
+                                                        <div class="image">
+                                                            <img src="<?php echo $domain ?>assets/images/testimonials/author-01.svg" alt="">
+                                                        </div>
                                                         <div class="text">
-                                                            <h6 class="title">Rafael Costa</h6>
+                                                            <h6 class="title">Michael Adams</h6>
                                                             <p class="designation">Car Owner</p>
                                                         </div>
                                                     </div>
@@ -285,9 +287,11 @@
                                                         I was impressed with the variety of engine products available. I checked the products online, then visited the store to pick them up. Everything fit perfectly, and my mechanic was impressed too!
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                        
+                                                        <div class="image">
+                                                            <img src="<?php echo $domain ?>assets/images/testimonials/author-02.svg" alt="">
+                                                        </div>
                                                         <div class="text">
-                                                            <h6 class="title">Beatriz Silva</h6>
+                                                            <h6 class="title">Laura Chen</h6>
                                                             <p class="designation">Auto Enthusiast</p>
                                                         </div>
                                                     </div>
@@ -300,9 +304,11 @@
                                                         <?php echo $sitename ?> is my go-to for car engine parts. The parts are durable, affordable, and the team is friendly and professional. My car runs smoother than ever!
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                     
+                                                        <div class="image">
+                                                            <img src="<?php echo $domain ?>assets/images/testimonials/author-03.svg" alt="">
+                                                        </div>
                                                         <div class="text">
-                                                            <h6 class="title">Lucas Almeida</h6>
+                                                            <h6 class="title">James Miller</h6>
                                                             <p class="designation">Fleet Manager</p>
                                                         </div>
                                                     </div>
@@ -315,9 +321,11 @@
                                                         The staff helped me choose exactly what my car needed. The product quality was top-notch, and I could see the difference right away after installation. Thanks, <?php echo $sitename ?>!
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                     
+                                                        <div class="image">
+                                                            <img src="<?php echo $domain ?>assets/images/testimonials/author-04.svg" alt="">
+                                                        </div>
                                                         <div class="text">
-                                                            <h6 class="title">Camila Moreira</h6>
+                                                            <h6 class="title">Sophia Johnson</h6>
                                                             <p class="designation">Satisfied Customer</p>
                                                         </div>
                                                     </div>
@@ -330,9 +338,11 @@
                                                         Excellent service and excellent products. I was able to find the exact engine part I needed quickly and at a good price. I’ll definitely shop here again for future needs.
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                      
+                                                        <div class="image">
+                                                            <img src="<?php echo $domain ?>assets/images/testimonials/author-05.svg" alt="">
+                                                        </div>
                                                         <div class="text">
-                                                            <h6 class="title">Mariana Rocha</h6>
+                                                            <h6 class="title">Daniel Smith</h6>
                                                             <p class="designation">Local Mechanic</p>
                                                         </div>
                                                     </div>
@@ -353,7 +363,7 @@
             <section class="rts-team-area rts-section-gap">
                 <div class="container">
                     <div class="section-title-area2">
-                        <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">Our Portfolio</p>
+                        <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">Our Te</p>
                         
                     </div>
                     <div class="section-inner mt--60">
@@ -362,10 +372,10 @@
                                 <div class="team-wrapper">
                                     <div class="image-area">
                                         <a href="#">
-                                            <img src="<?php echo $domain ?>assets/images/4.jpg" alt="">
+                                            <img src="<?php echo $domain ?>assets/images/team/01.webp" alt="">
                                         </a>
                                         <div class="content">
-                                            <h6 class="title cw"></h6>
+                                            <h6 class="title cw">Amelia Scot</h6>
                                             <p class="designation cw">Office Executive</p>
                                         </div>
                                     </div>
@@ -375,10 +385,10 @@
                                 <div class="team-wrapper">
                                     <div class="image-area">
                                         <a href="#">
-                                            <img src="<?php echo $domain ?>assets/images/5.jpg" alt="">
+                                            <img src="<?php echo $domain ?>assets/images/team/02.webp" alt="">
                                         </a>
                                         <div class="content">
-                                            <h6 class="title cw"></h6>
+                                            <h6 class="title cw">Michael Roy</h6>
                                             <p class="designation cw">Manager</p>
                                         </div>
                                     </div>
@@ -388,10 +398,10 @@
                                 <div class="team-wrapper">
                                     <div class="image-area">
                                         <a href="#">
-                                            <img src="<?php echo $domain ?>assets/images/6.jpg" alt="">
+                                            <img src="<?php echo $domain ?>assets/images/team/03.webp" alt="">
                                         </a>
                                         <div class="content">
-                                            <h6 class="title cw"></h6>
+                                            <h6 class="title cw">Emma Elizabeth</h6>
                                             <p class="designation cw">Office Executive</p>
                                         </div>
                                     </div>
@@ -401,10 +411,10 @@
                                 <div class="team-wrapper">
                                     <div class="image-area">
                                         <a href="#">
-                                            <img src="<?php echo $domain ?>assets/images/7.jpg" alt="">
+                                            <img src="<?php echo $domain ?>assets/images/team/04.webp" alt="">
                                         </a>
                                         <div class="content">
-                                            <h6 class="title cw"></h6>
+                                            <h6 class="title cw">Michael Roy</h6>
                                             <p class="designation cw">Manager</p>
                                         </div>
                                     </div>
