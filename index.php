@@ -60,7 +60,7 @@
                                     </div>
                                     <div class="text">
                                         <p>Call Us Now</p>
-                                        <a href="call-to_12505550199"><?php echo $Short_number ?></a>
+                                        <a href="call-to_12505550199"><?php echo $sitephone_number ?></a>
                                     </div>
                                 </div>
                                 <div class="map-area">
@@ -78,7 +78,7 @@
                                     </div>
                                     <div class="text">
                                         <p>Our Location</p>
-                                        <a href="#"><?php echo $short_site_address ?></a>
+                                        <a href="#"><?php echo $siteshortaddress ?></a>
                                     </div>
                                 </div>
                             </div>
@@ -188,51 +188,14 @@
                         <div class="swiper-btn swiper-button-next"><img src="assets/images/banner/arrow-right.svg" alt=""></div>
                     </div>
                 </div>
-                <div class="select-area-down wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s">
-                    <form action="#" method="get" accept-charset="utf-8">
-                        <select name="my_select" class="mySelect">
-                            <option value="2" selected>Car Make</option>
-                            <option value="10">Mazda</option>
-                            <option value="1">Citroen</option>
-                            <option value="13">Honda</option>
-                            <option value="14">Mitsubishi</option>
-                            <option value="15">Peugeot</option>
-                        </select>
-                    </form>
-                    <form class="select-2" action="#" method="get" accept-charset="utf-8">
-                        <select name="my_select2" class="my_select2">
-                            <option value="2" selected>Car Model</option>
-                            <option value="10">155</option>
-                            <option value="1">151</option>
-                            <option value="13">150</option>
-                            <option value="14">152</option>
-                            <option value="15">156</option>
-                        </select>
-                    </form>
-                    <form class="select-2" action="#" method="get" accept-charset="utf-8">
-                        <select name="my_select2" class="my_select2">
-                            <option value="2" selected>Price</option>
-                            <option value="10">22,000$</option>
-                            <option value="1">27,000$</option>
-                            <option value="13">30,000$</option>
-                            <option value="14">32,000$</option>
-                            <option value="15">38,000$</option>
-                        </select>
-                    </form>
-                    <button type="submit" class="rts-btn radius-big icon btn-primary">
-                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M10.69 10.69L13 13M12.3333 6.68575C12.3333 9.826 9.796 12.3715 6.667 12.3715C3.53725 12.3715 1 9.826 1 6.6865C1 3.54475 3.53725 1 6.66625 1C9.796 1 12.3333 3.5455 12.3333 6.68575Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                        Search
-                    </button>
-                </div>
+                
             </section>
             <!-- Banner area end -->
 
 
 
             <!-- Portfolio Area Start -->
-            <section class="rts-portfolio-area2 area-3 rts-section-gapBottom">
+            <section style="margin-top:30px" class="rts-portfolio-area2 area-3 rts-section-gapBottom">
                 <div class="container">
                     <div class="section-top d-flex justify-content-between align-items-end">
                         <div class="section-title-area">
@@ -617,12 +580,27 @@
             </section>
             <!-- Testimonials Area End -->
 
+
+            <!-- Video Area Start -->
+            <div class="rts-video-area  bg_image">
+
+
+                <!-- <img src="assets/images/1.jpg" alt=""> -->
+
+
+
+            </div>
+            <!-- Video Area End -->
+
+
+
+
             <!-- Blog Area Start -->
             <section class="rts-blog-area rts-section-gap">
                 <div class="container">
                     <div class="section-title-area2">
-                        <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">Latest Blog</p>
-                        <h2 class="section-title wow move-right">Our Latest <span>Blog</span></h2>
+                        <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">Latest Products</p>
+                        <h2 class="section-title wow move-right">Our Latest <span>Products</span></h2>
                     </div>
                     <div class="section-inner mt--80">
                         <div class="row g-5">
@@ -632,8 +610,8 @@
                                         <a href="blog-details.html"><img src="assets/images/blog/05.webp" alt=""></a>
                                     </div>
                                     <div class="content">
-                                        <p class="blog-meta">March 26, 2024</p>
-                                        <h5><a href="blog-details.html">Braking It Down Understanding the Key Parts of Your Car's Brake Parts System </a></h5>
+                                        <p class="blog-meta">Available Now</p>
+                                        <h5><a href="blog-details.html">Premium Brake Pads for Smooth and Safe Driving</a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -644,8 +622,8 @@
                                             <a href="blog-details.html"><img src="assets/images/blog/03.webp" width="263" alt=""></a>
                                         </div>
                                         <div class="content mt-0">
-                                            <p class="blog-meta">March 26, 2024</p>
-                                            <h6><a href="blog-details.html">A Beginner's Guide to Understanding Your Car's Engine Components</a></h6>
+                                            <p class="blog-meta">In Stock</p>
+                                            <h6><a href="blog-details.html">Beginner-Friendly Car Engine Oil for Better Performance</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -655,8 +633,8 @@
                                             <a href="blog-details.html"><img src="assets/images/blog/04.webp" width="263" alt=""></a>
                                         </div>
                                         <div class="content mt-0">
-                                            <p class="blog-meta">March 26, 2024</p>
-                                            <h6><a href="blog-details.html">The Ultimate Guide to Car Suspension: What You Need to Know</a></h6>
+                                            <p class="blog-meta">In Stock</p>
+                                            <h6><a href="blog-details.html">High-Quality Suspension Springs for a Comfortable Ride</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -665,6 +643,7 @@
                     </div>
                 </div>
             </section>
+
             <!-- Blog Area End -->
 
             <!-- FAQ Area Start -->
@@ -756,7 +735,7 @@
                         <div class="contact">
                             <a href="call-to_%2b16544521505.html">
                                 <img src="assets/images/cta/call.svg" alt="">
-                                <?php echo $Short_number ?> <br> <br>
+                                <?php echo $sitephone_number ?> <br> <br>
                                 +244 935 459 394 <br> <br>
                                 +244 942 735 262 <br> <br>
 
@@ -871,4 +850,5 @@
     <!-- main js here -->
     <script src="<?php echo $domain ?>assets/js/main.js"></script>
 </body>
+
 </html>

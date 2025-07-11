@@ -4,11 +4,12 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain?>assets/images/fav.svg">
-    <title><?php  echo $sitename ?> - Car Dealer
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/fav.svg">
+    <title><?php echo $sitename ?> - Car Dealer
         HTML Template</title>
     <meta name="description" content="Your trusted source for expert healthcare services and car information. Providing personalized care, advanced treatments, and reliable car dealing to help you achieve better health.">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/plugins/plugins.css">
@@ -19,7 +20,7 @@
 </head>
 
 <body class="with-sidebar">
-    
+
     <div class="search-input-area">
         <div class="container">
             <div class="search-input-inner">
@@ -53,18 +54,18 @@
                             <div class="left d-flex align-items-center">
                                 <div class="map-area">
                                     <i class="rt-icon-phone-flip"></i>
-                                    <a href="call-to_12505550199"><?php echo $Short_number ?></a>
+                                    <a href="call-to_12505550199"><?php echo $sitephone_number ?></a>
                                 </div>
                                 <div class="map-area">
                                     <i class="rt-icon-envelope"></i>
-                                    <a href="mail-to_<?php  echo $sitename ?>%40gmail.html"><?php echo $short_site_address ?></a>
+                                    <a href="mail-to_<?php echo $sitename ?>%40gmail.html"><?php echo $siteaddress ?></a>
                                 </div>
                                 <div class="map-area">
                                     <i class="rt-icon-marker"></i>
-                                    <a href="#"><?php echo $short_site_address ?></a>
+                                    <a href="#"><?php echo $siteaddress ?></a>
                                 </div>
                             </div>
-                          
+
                         </div>
                     </div>
                 </div>
@@ -75,7 +76,7 @@
                                 <div class="header-wrapper-1">
                                     <div class="logo-area-start">
                                         <a href="index-2.html" class="logo">
-                                            <img src="<?php echo $domain?>assets/images/logo/logo.png" width="99" alt="logo_area">
+                                            <img src="<?php echo $domain ?>assets/images/logo/logo.png" width="99" alt="logo_area">
                                         </a>
                                     </div>
                                     <div class="header-right d-block">
@@ -84,17 +85,17 @@
                                                 <ul class="">
                                                     <li class="main-nav">
                                                         <a class="main-menu" href="<?php echo $domain ?>index.php">Home</a>
-                                                       
+
                                                     </li>
 
                                                     <li class="main-nav">
                                                         <a class="main-menu" href="<?php echo $domain ?>about/index.php">About Us</a>
                                                     </li>
-                                                   
-                                                   
+
+
                                                     <li class="main-nav">
                                                         <a class="main-menu" href="<?php echo $domain ?>shop/index.php">Shop</a>
-                                                      
+
                                                     </li>
                                                     <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>contact/index.php">Contact</a></li>
                                                 </ul>
@@ -137,7 +138,7 @@
                     <div class="breadcrumb-area-wrapper">
                         <h1 class="title">Get In Touch</h1>
                         <div class="nav-bread-crumb">
-                            <a href="index-2.html">Home</a>
+                            <a href="<?php echo $domain ?>">Home</a>
                             <a href="#" class="current">Contact</a>
                         </div>
                     </div>
@@ -151,10 +152,10 @@
                     <div class="section-inner d-flex">
                         <div class="map-area">
                             <div class="contact-map-area-fluid">
-                                <iframe class="contact-map" height="607" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14602.288851207937!2d90.47855065!3d23.798243149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1663151706353!5m2!1sen!2sbd" style="border:0; width:100% !important;    " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <iframe class="contact-map" height="607" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63072.99104060337!2d13.216012346880166!3d-8.873826186242326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRu%2017%20%20setembro%20Bairro%20golf%201%20ao%20lado%20do%20Hospital%20Avokumbi%20Kilamba%20Kiaxi%20luandam-Angola%20loja%20Zone%20A%2021!5e0!3m2!1sen!2sng!4v1752208181297!5m2!1sen!2sng" width="100% !important" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
-                      
+
                     </div>
                 </div>
             </section>
@@ -166,16 +167,16 @@
                     <div class="inner">
                         <div class="contact-wrapper">
                             <div class="icon">
-                                <img src="<?php echo $domain?>assets/images/contact/01.svg" alt="">
+                                <img src="<?php echo $domain ?>assets/images/contact/01.svg" alt="">
                             </div>
                             <h5 class="title">Location</h5>
                             <ul>
-                                <li> <?php echo $long_site_address ?></li>
+                                <li> <?php echo $siteaddress ?></li>
                             </ul>
                         </div>
                         <div class="contact-wrapper">
                             <div class="icon">
-                                <img src="<?php echo $domain?>assets/images/contact/02.svg" alt="">
+                                <img src="<?php echo $domain ?>assets/images/contact/02.svg" alt="">
                             </div>
                             <h5 class="title">Email</h5>
                             <ul>
@@ -185,12 +186,13 @@
                         </div>
                         <div class="contact-wrapper">
                             <div class="icon">
-                                <img src="<?php echo $domain?>assets/images/contact/03.svg" alt="">
+                                <img src="<?php echo $domain ?>assets/images/contact/03.svg" alt="">
                             </div>
                             <h5 class="title">Phone</h5>
                             <ul>
-                                <li><a href="call-to_%2b12134521505.html">+1-213-452-1505</a></li>
-                                <li><a href="call-to_%2b15677891559.html">+1-567-789-1559</a></li>
+                                <li><a href="call-to_%2b12134521505.html"><?php echo $sitephone_number ?></a></li>
+                                <li><a href="call-to_%2b15677891559.html">+244 935 459 394</a></li>
+                                <li><a href="call-to_%2b15677891559.html">+244 942 735 262</a></li>
                             </ul>
                         </div>
                     </div>
@@ -198,50 +200,7 @@
             </div>
             <!-- Contact End -->
 
-            <!-- Counter Area Start -->
-            <section class="rts-counter-area jarallax">
-                <div class="container">
-                    <div class="counter-inner">
-                        <div class="inner wow zoomIn" data-wow-delay=".2s" data-wow-duration="1s">
-                            <div class="icon">
-                                <img src="<?php echo $domain?>assets/images/counter/icon-01.svg" width="74" alt="">
-                            </div>
-                            <div class="text">
-                                <h3 class="title cw"><span class="counter">320</span><span>M</span></h3>
-                                <p class="desc">Cars For Sale</p>
-                            </div>
-                        </div>
-                        <div class="inner wow zoomIn" data-wow-delay=".4s" data-wow-duration="1s">
-                            <div class="icon">
-                                <img src="<?php echo $domain?>assets/images/counter/icon-02.svg" alt="">
-                            </div>
-                            <div class="text">
-                                <h3 class="title cw"><span class="counter">5500</span><span>+</span></h3>
-                                <p class="desc">Dealer Review</p>
-                            </div>
-                        </div>
-                        <div class="inner wow zoomIn" data-wow-delay=".6s" data-wow-duration="1s">
-                            <div class="icon">
-                                <img src="<?php echo $domain?>assets/images/counter/icon-03.svg" alt="">
-                            </div>
-                            <div class="text">
-                                <h3 class="title cw"><span class="counter">300</span><span>M</span></h3>
-                                <p class="desc">Verified User</p>
-                            </div>
-                        </div>
-                        <div class="inner wow zoomIn" data-wow-delay=".8s" data-wow-duration="1s">
-                            <div class="icon">
-                                <img src="<?php echo $domain?>assets/images/counter/icon-04.svg" alt="">
-                            </div>
-                            <div class="text">
-                                <h3 class="title cw"><span class="counter">10</span><span>M</span></h3>
-                                <p class="desc">Visitor Per Day</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- Counter Area End -->
+
             <!-- Brand Area Start -->
             <section class="rts-brand-area rts-section-gapTop">
                 <div class="container">
@@ -251,13 +210,13 @@
                     </div>
                     <div class="section-inner mt--80">
                         <ul>
-                            <li class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/01-w.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/02.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/03.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/04.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/05.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/06.svg" alt=""></li>
-                            <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="<?php echo $domain?>assets/images/brand/07.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".2s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/01-w.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".4s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/02.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".6s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/03.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay=".8s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/04.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/05.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/06.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/07.svg" alt=""></li>
                         </ul>
                     </div>
                 </div>
@@ -269,11 +228,11 @@
                         <h2 class="title">If you have any questions Please Call.</h2>
                         <div class="contact">
                             <a href="call-to_%2b16544521505.html">
-                                <img src="<?php echo $domain?>assets/images/cta/call.svg" alt="">
+                                <img src="<?php echo $domain ?>assets/images/cta/call.svg" alt="">
                                 +1-654-452-1505</a>
                         </div>
-                        <img class="shape one" src="<?php echo $domain?>assets/images/cta/round.svg" alt="">
-                        <img class="shape two" src="<?php echo $domain?>assets/images/cta/line.svg" alt="">
+                        <img class="shape one" src="<?php echo $domain ?>assets/images/cta/round.svg" alt="">
+                        <img class="shape two" src="<?php echo $domain ?>assets/images/cta/line.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -281,7 +240,7 @@
     </div>
 
     <!-- rts footer area start -->
-     <?php include('../include/footer.php')  ?>
+    <?php include('../include/footer.php')  ?>
     <!-- rts footer area end -->
     <!-- header style two -->
     <div id="side-bar" class="side-bar header-two">
@@ -292,18 +251,18 @@
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
                     <li class="has-droupdown">
                         <a href="<?php echo $domain ?>index.php" class="main">Home</a>
-                       
+
                     </li>
                     <li><a href="<?php echo $domain ?>about/index.php" class="main">About</a></li>
                     <li class="">
                         <a href="<?php echo $domain ?>shop/index.php" class="main">Shop</a>
-                       
+
                     </li>
                     <li><a href="<?php echo $domain ?><?php echo $domain ?>contact/.php" class="main">Contact</a></li>
                 </ul>
             </nav>
 
-           
+
         </div>
         <!-- mobile menu area end -->
     </div>
@@ -325,5 +284,6 @@
 </body>
 
 
-<!-- Mirrored from html.themewant.com/<?php  echo $sitename ?>/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Jul 2025 17:02:26 GMT -->
+<!-- Mirrored from html.themewant.com/<?php echo $sitename ?>/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 07 Jul 2025 17:02:26 GMT -->
+
 </html>
