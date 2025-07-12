@@ -112,7 +112,7 @@
                                                     <a class="main-menu" href="<?php echo $domain ?>shop/index.php">Shop</a>
 
                                                 </li>
-                                                <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>index.php">Contact</a></li>
+                                                <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>contact">Contact</a></li>
                                             </ul>
                                         </div>
                                         <div class="bottom-right">
@@ -769,9 +769,9 @@
                             <div class="body">
                                 <ul class="nav-bottom">
                                     <li><a href="<?php echo $domain ?>index.php">Home</a></li>
-                                    <li><a href="<?php echo $domain ?>about/index.php">About</a></li>
-                                    <li><a href="<?php echo $domain ?>shop/index.php">Shop</a></li>
-                                    <li><a href="<?php echo $domain ?>contact/index.php">Contact</a></li>
+                                    <li><a href="<?php echo $domain ?>about/">About</a></li>
+                                    <li><a href="<?php echo $domain ?>shop/">Shop</a></li>
+                                    <li><a href="<?php echo $domain ?>contact/">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -814,11 +814,11 @@
 
                     </li>
 
-                    <li><a href="<?php echo $domain ?>about/index.php" class="main">About</a></li>
+                    <li><a href="<?php echo $domain ?>about/" class="main">About</a></li>
                     <li class="">
-                        <a href="<?php echo $domain ?>shop/index.php" class="main">Shop</a>
+                        <a href="<?php echo $domain ?>shop/" class="main">Shop</a>
                     </li>
-                    <li><a href="<?php echo $domain ?>contact/index.php" class="main">Contact</a></li>
+                    <li><a href="<?php echo $domain ?>contact/" class="main">Contact</a></li>
                 </ul>
             </nav>
 

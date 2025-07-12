@@ -66,7 +66,7 @@ $host = 'mail.josemaka.com';
 $sitename = "Josemaka";
 $site_email = "lijezzy4real@yahool.com";
 $sitephone_number = "+244 928 602 665";
-$siteaddress = "Ru 17  setembro Bairro golf 1 ao lado do Hospital Avokumbi Kilamba Kiaxi luandam-Angola loja Zone A 21";
+$siteaddress = "Rua 17 setembro Bairro golf 1 ao lado do Hospital Avokumbi Kilamba Kiaxi Luanda-Angola  <br> Loja Zona A 21";
 $siteshortaddress = 'Avokumbi Kilamba Kiaxi luandam-Angola';
 
 ?>
