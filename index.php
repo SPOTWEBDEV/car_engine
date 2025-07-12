@@ -11,6 +11,7 @@
     <title><?php echo $sitename ?> - Car Dealer
         HTML Template</title>
     <meta name="description" content="Your trusted source for expert healthcare services and car information. Providing personalized care, advanced treatments, and reliable car dealing to help you achieve better health.">
+    <link ref="">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/plugins/plugins.css">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/plugins/magnifying-popup.css">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/vendor/bootstrap.min.css">
@@ -76,9 +77,9 @@
                                     <div class="icon">
                                         <i class="rt-icon-marker"></i>
                                     </div>
-                                    <div class="text">
+                                    <div style="max-width:300px" class="text ">
                                         <p>Our Location</p>
-                                        <a href="#"><?php echo $siteshortaddress ?></a>
+                                        <a style="line-height: 3px;" href="#"><?php echo $siteaddress ?></a>
                                     </div>
                                 </div>
                             </div>
@@ -115,12 +116,6 @@
                                             </ul>
                                         </div>
                                         <div class="bottom-right">
-                                            <div class="social-area-transparent">
-                                                <div class="search-area">
-                                                    <a href="javascript:void(0)" class="search"><img src="assets/images/icon/search.svg" alt=""></a>
-                                                </div>
-
-                                            </div>
                                             <div class="menu-btn" id="menu-btn">
                                                 <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="55" height="55" rx="15" fill="#FF3600" />
@@ -188,7 +183,7 @@
                         <div class="swiper-btn swiper-button-next"><img src="assets/images/banner/arrow-right.svg" alt=""></div>
                     </div>
                 </div>
-                
+
             </section>
             <!-- Banner area end -->
 
@@ -221,7 +216,7 @@
 
                                     <?php
 
-                                    $query = mysqli_query($connection, "SELECT * FROM `product` WHERE `status`='instock' ORDER BY `id` DESC LIMIT 2");
+                                    $query = mysqli_query($connection, "SELECT * FROM `product` WHERE `status`='instock' ORDER BY `id` DESC LIMIT 6");
 
                                     if (mysqli_num_rows($query)) {
                                         while ($row = mysqli_fetch_assoc($query)) {
@@ -434,6 +429,11 @@
                             <li class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s"><img src="assets/images/brand/05.svg" alt=""></li>
                             <li class="wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1s"><img src="assets/images/brand/06.svg" alt=""></li>
                             <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="assets/images/brand/07.svg" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="assets/images/brand/9.png" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="assets/images/brand/18.png" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="assets/images/brand/19.png" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="assets/images/brand/20.png" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="assets/images/brand/21.png" alt=""></li>
                         </ul>
                     </div>
                 </div>
@@ -480,7 +480,7 @@
                 <div class="container">
                     <div class="slider-inner mt--50">
                         <div class="row align-items-end">
-                            <div class="col-lg-6">
+                            <div style="display:none" class="col-lg-6">
                                 <div class="swiper rts-imageSlider">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
@@ -581,16 +581,9 @@
             <!-- Testimonials Area End -->
 
 
-            <!-- Video Area Start -->
-            <div class="rts-video-area  bg_image">
-
-
-                <img src="assets/images/5.jpg" alt="">
 
 
 
-            </div>
-            <!-- Video Area End -->
 
 
 
@@ -599,19 +592,20 @@
             <section class="rts-blog-area rts-section-gap ">
                 <div class="container ">
                     <div class="section-title-area2">
-                        <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">Latest Products</p>
-                        <h2 class="section-title wow move-right">Our Latest <span>Products</span></h2>
+                        <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">Latest BLog</p>
+                        <h2 class="section-title wow move-right">Our Latest <span>Post</span></h2>
                     </div>
                     <div class="section-inner mt--80">
-                        <div class="row g-5">
+                        <div class="row g-5" id="blogContainer"></div>
+                        <!-- <div class="row g-5">
                             <div class="col-lg-6">
                                 <div class="blog-wrapper">
                                     <div class="image-area">
-                                        <a href="blog-details.html"><img src="assets/images/6.jpg" alt=""></a>
+                                        <a href="./blog-details/?id=${post.id}"><img src="assets/images/6.jpg" alt=""></a>
                                     </div>
                                     <div class="content">
                                         <p class="blog-meta">Available Now</p>
-                                        <h5><a href="blog-details.html">Premium Brake Pads for Smooth and Safe Driving</a></h5>
+                                        <h5><a href="./blog-details/?id=${post.id}">Premium Brake Pads for Smooth and Safe Driving</a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -619,27 +613,27 @@
                                 <div class="blog-list-style mb--30">
                                     <div class="blog-wrapper d-flex align-items-center">
                                         <div class="image-area">
-                                            <a href="blog-details.html"><img src="assets/images/5.jpg" width="263" alt=""></a>
+                                            <a href="./blog-details/?id=${post.id}"><img src="assets/images/5.jpg" width="263" alt=""></a>
                                         </div>
                                         <div class="content mt-0">
                                             <p class="blog-meta">In Stock</p>
-                                            <h6><a href="blog-details.html">Beginner-Friendly Car Engine Oil for Better Performance</a></h6>
+                                            <h6><a href="./blog-details/?id=${post.id}">Beginner-Friendly Car Engine Oil for Better Performance</a></h6>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="blog-list-style">
                                     <div class="blog-wrapper d-flex align-items-center">
                                         <div class="image-area">
-                                            <a href="blog-details.html"><img src="assets/images/7.jpg" width="263" alt=""></a>
+                                            <a href="./blog-details/?id=${post.id}"><img src="assets/images/7.jpg" width="263" alt=""></a>
                                         </div>
                                         <div class="content mt-0">
                                             <p class="blog-meta">In Stock</p>
-                                            <h6><a href="blog-details.html">High-Quality Suspension Springs for a Comfortable Ride</a></h6>
+                                            <h6><a href="./blog-details/?id=${post.id}">High-Quality Suspension Springs for a Comfortable Ride</a></h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </section>
@@ -655,7 +649,7 @@
                     </div>
                     <div class="section-inner mt--80">
                         <div class="row g-5">
-                            <div class="col-xl-7 col-lg-6">
+                            <div class="col-12">
                                 <div class="rts-faq__accordion ">
                                     <div class="accordion accordion-flush" id="rts-accordion">
                                         <div class="accordion-item active">
@@ -849,6 +843,59 @@
     <script src="<?php echo $domain ?>assets/js/vendor/waypoint.js"></script>
     <!-- main js here -->
     <script src="<?php echo $domain ?>assets/js/main.js"></script>
+
+    <script type="module">
+        import {
+            news
+        } from "<?php echo $domain ?>assets/js/blogNew.js"
+
+        console.log(news);
+        const container = document.getElementById("blogContainer");
+
+        news.forEach((post, index) => {
+            if (index === 0) {
+                // First post (full-width column)
+                container.innerHTML += `
+            <div class="col-lg-6">
+                <div class="blog-wrapper">
+                    <div class="image-area">
+                        <a href="./blog-details/?id=${post.id}"><img src="${post.image}" alt=""></a>
+                    </div>
+                    <div class="content">
+                        <p class="blog-meta">Available Now</p>
+                        <h5><a href="./blog-details/?id=${post.id}">${post.title}</a></h5>
+                    </div>
+                </div>
+            </div>
+        `;
+            } else {
+                // Other posts (list style)
+                const listItem = `
+            <div class="blog-list-style mb--30">
+                <div class="blog-wrapper d-flex align-items-center">
+                    <div class="image-area">
+                        <a href="./blog-details/?id=${post.id}"><img src="${post.image}" width="263" alt=""></a>
+                    </div>
+                    <div class="content mt-0">
+                        <p class="blog-meta">In Stock</p>
+                        <h6><a href="./blog-details/?id=${post.id}">${post.title}</a></h6>
+                    </div>
+                </div>
+            </div>
+        `;
+
+                // Append to second column
+                let col = document.querySelector("#blogContainer .col-lg-6:nth-child(2)");
+
+                if (!col) {
+                    const colHTML = `<div class="col-lg-6" id="secondCol">${listItem}</div>`;
+                    container.innerHTML += colHTML;
+                } else {
+                    col.innerHTML += listItem;
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>

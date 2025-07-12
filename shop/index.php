@@ -228,7 +228,7 @@ $query = mysqli_query($connection, "
                         <?php endwhile; ?>
 
                     </div>
-                    <a href="#" class="rts-btn load-more-btn btn-border">Load More</a>
+                   
                 </div>
             </div>
             <div class="rts-cta-area area-2">

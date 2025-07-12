@@ -18,7 +18,7 @@
 </head>
 
 <body class="with-sidebar">
-    
+
     <div class="search-input-area">
         <div class="container">
             <div class="search-input-inner">
@@ -270,7 +270,7 @@
                                                         The engine part I bought from <?php echo $sitename ?> worked perfectly and gave my car a new life! Great quality and knowledgeable staff who helped me choose the right part. Highly recommend visiting their store.
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                       
+
                                                         <div class="text">
                                                             <h6 class="title">Rafael Costa</h6>
                                                             <p class="designation">Car Owner</p>
@@ -285,7 +285,7 @@
                                                         I was impressed with the variety of engine products available. I checked the products online, then visited the store to pick them up. Everything fit perfectly, and my mechanic was impressed too!
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                        
+
                                                         <div class="text">
                                                             <h6 class="title">Beatriz Silva</h6>
                                                             <p class="designation">Auto Enthusiast</p>
@@ -300,7 +300,7 @@
                                                         <?php echo $sitename ?> is my go-to for car engine parts. The parts are durable, affordable, and the team is friendly and professional. My car runs smoother than ever!
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                     
+
                                                         <div class="text">
                                                             <h6 class="title">Lucas Almeida</h6>
                                                             <p class="designation">Fleet Manager</p>
@@ -315,7 +315,7 @@
                                                         The staff helped me choose exactly what my car needed. The product quality was top-notch, and I could see the difference right away after installation. Thanks, <?php echo $sitename ?>!
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                     
+
                                                         <div class="text">
                                                             <h6 class="title">Camila Moreira</h6>
                                                             <p class="designation">Satisfied Customer</p>
@@ -330,7 +330,7 @@
                                                         Excellent service and excellent products. I was able to find the exact engine part I needed quickly and at a good price. I’ll definitely shop here again for future needs.
                                                     </p>
                                                     <div class="author-area d-flex align-items-center">
-                                                      
+
                                                         <div class="text">
                                                             <h6 class="title">Mariana Rocha</h6>
                                                             <p class="designation">Local Mechanic</p>
@@ -354,7 +354,7 @@
                 <div class="container">
                     <div class="section-title-area2">
                         <p class="sub-title wow fadeInUp" data-wow-delay=".1s" data-wow-duration="1s">Our Portfolio</p>
-                        
+
                     </div>
                     <div class="section-inner mt--60">
                         <div class="row g-5">
@@ -364,7 +364,7 @@
                                         <a href="#">
                                             <img src="<?php echo $domain ?>assets/images/4.jpg" alt="">
                                         </a>
-                                      
+
                                     </div>
                                 </div>
                             </div>
@@ -387,7 +387,7 @@
                                         <a href="#">
                                             <img src="<?php echo $domain ?>assets/images/6.jpg" alt="">
                                         </a>
-                                     
+
                                     </div>
                                 </div>
                             </div>
@@ -397,7 +397,7 @@
                                         <a href="#">
                                             <img src="<?php echo $domain ?>assets/images/7.jpg" alt="">
                                         </a>
-                                      
+
                                     </div>
                                 </div>
                             </div>
@@ -422,6 +422,12 @@
                             <li class="wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/05.svg" alt=""></li>
                             <li class="wow fadeInUp" data-wow-delay="1.2s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/06.svg" alt=""></li>
                             <li class="wow fadeInUp" data-wow-delay="1.4s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/07.svg" alt=""></li>
+
+                            <li class="wow fadeInUp" data-wow-delay="1.6s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/9.png" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="1.8s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/18.png" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="2s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/19.png" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="2.2s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/20.png" alt=""></li>
+                            <li class="wow fadeInUp" data-wow-delay="2.4s" data-wow-duration="1s"><img src="<?php echo $domain ?>assets/images/brand/21.png" alt=""></li>
                         </ul>
                     </div>
                 </div>
@@ -472,7 +478,7 @@
                 </ul>
             </nav>
 
-             <p>Design And Develop By <a target="_blank" href="https://spotwebtech.com.ng/">SPOTWEB TECH</a></p>
+            <p>Design And Develop By <a target="_blank" href="https://spotwebtech.com.ng/">SPOTWEB TECH</a></p>
         </div>
         <!-- mobile menu area end -->
     </div>
