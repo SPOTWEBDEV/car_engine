@@ -116,6 +116,8 @@
                                             </ul>
                                         </div>
                                         <div class="bottom-right">
+                                            <div id="google_translate_element"></div>
+                                            <?php include('./translator/index.php') ?>
                                             <div class="menu-btn" id="menu-btn">
                                                 <svg width="55" height="55" viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <rect width="55" height="55" rx="15" fill="#FF3600" />
