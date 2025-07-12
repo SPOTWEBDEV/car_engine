@@ -106,6 +106,7 @@
                             <h5 class="title">Email</h5>
                             <ul>
                                 <li><a href="mail-to:<?php echo $site_email ?>"><?php echo $site_email ?></a></li>
+
                             </ul>
                         </div>
                         <div class="contact-wrapper">
