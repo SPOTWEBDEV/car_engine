@@ -15,6 +15,9 @@
                                                       <i class="rt-icon-marker"></i>
                                                       <a href="#"><?php echo $siteaddress ?></a>
                                              </div>
+                                             <!-- <div class="map-area">
+                                                      
+                                             </div> -->
                                     </div>
 
                            </div>
@@ -49,12 +52,15 @@
 
                                                                                           </li>
                                                                                           <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>contact/">Contact</a></li>
+                                                                                          <li>
+                                                                                                   <!-- <div id="google_translate_desktop"></div> -->
+                                                                                          </li>
                                                                                  </ul>
                                                                         </div>
                                                                         <div class="bottom-right">
 
                                                                                  <div class="button-area">
-                                                                                          <div id="google_translate_element"></div>
+
                                                                                           <a href="account.html" class="rts-btn btn-border radius-small icon">
                                                                                                    Sign In
                                                                                                    <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,5 +85,3 @@
                   </div>
          </div>
 </header>
-
-<?php include('../translator/index.php')  ?>
