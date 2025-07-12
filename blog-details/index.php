@@ -13,10 +13,11 @@ include('../server/connection.php')
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/fav.svg">
-    <title>AutoVault - Car Dealer
-        HTML Template</title>
-    <meta name="description" content="Your trusted source for expert healthcare services and car information. Providing personalized care, advanced treatments, and reliable car dealing to help you achieve better health.">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/logo/logo.png">
+    <title><?php echo $sitename ?> - Shop Quality Products at Josemaka</title>
+    <meta name="description" content="Josemaka - Discover a wide range of quality products online. View products and visit our store to purchase them with confidence. Your trusted destination for reliable shopping.">
+    <meta name="keywords" content="Josemaka, buy products, view products, online store, shop, quality products, visit store, reliable shopping">
+    <meta name="author" content="Josemaka">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/plugins/plugins.css">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/plugins/magnifying-popup.css">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/vendor/bootstrap.min.css">

@@ -8,10 +8,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/fav.svg">
-    <title><?php echo $sitename ?> - Car Dealer
-        HTML Template</title>
-    <meta name="description" content="Your trusted source for expert healthcare services and car information. Providing personalized care, advanced treatments, and reliable car dealing to help you achieve better health.">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/logo/logo.png">
+    <title><?php echo $sitename ?> - Shop Quality Products at Josemaka</title>
+    <meta name="description" content="Josemaka - Discover a wide range of quality products online. View products and visit our store to purchase them with confidence. Your trusted destination for reliable shopping.">
+    <meta name="keywords" content="Josemaka, buy products, view products, online store, shop, quality products, visit store, reliable shopping">
+    <meta name="author" content="Josemaka">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/plugins/plugins.css">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/plugins/magnifying-popup.css">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/vendor/bootstrap.min.css">
@@ -113,10 +114,23 @@
                             </div>
                             <h5 class="title">Phone</h5>
                             <ul>
-                                <li><a href="call-to_%2b12134521505.html"><?php echo $sitephone_number ?></a></li>
-                                <li><a href="call-to_%2b15677891559.html">+244 935 459 394</a></li>
-                                <li><a href="call-to_%2b15677891559.html">+244 942 735 262</a></li>
+                                <li>
+                                    <a href="https://wa.me/<?php echo preg_replace('/\D/', '', $sitephone_number) ?>" target="_blank">
+                                        <?php echo $sitephone_number ?> (Whatsapp)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:+244935459394">
+                                        +244 935 459 394
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://wa.me/244942735262" target="_blank">
+                                        +244 942 735 262 (Whatsapp)
+                                    </a>
+                                </li>
                             </ul>
+
                         </div>
                     </div>
                 </div>
@@ -150,11 +164,29 @@
                     <div class="cta-inner">
                         <h2 class="title">If you have any questions Please Call.</h2>
                         <div class="contact">
-                            <a href="call-to_%2b16544521505.html">
+                            <a href="#">
+
+
                                 <img src="<?php echo $domain ?>assets/images/cta/call.svg" alt="">
-                                <?php echo $sitephone_number ?> <br> <br>
-                                +244 <br><br>
-                                <br><br>
+
+                                <a href="https://wa.me/<?php echo preg_replace('/\D/', '', $sitephone_number) ?>" target="_blank">
+                                    <?php echo $sitephone_number ?> (WhatsApp)
+                                </a>
+
+                                <br>
+
+
+                                <a href="tel:+244935459394" target="_blank">
+                                    +244 935 459 394 (TelePhone)
+                                </a>
+                                <br>
+
+
+
+                                <a href="https://wa.me/244942735262" target="_blank">
+                                    +244 942 735 262 (WhatsApp)
+                                </a>
+
 
 
                             </a>

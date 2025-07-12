@@ -1,27 +1,27 @@
 <?php
-    include '../../server/connection.php';
-    include '../../server/admin/auth/index.php';
-    if (isset($_GET['del_id'])) {
-        // Get the ID from the URL query string
-        $id = $_GET['del_id'];
+include '../../server/connection.php';
+include '../../server/admin/auth/index.php';
+if (isset($_GET['del_id'])) {
+  // Get the ID from the URL query string
+  $id = $_GET['del_id'];
 
-        
 
-        // Sanitize the input to avoid SQL injection
-        $id = mysqli_real_escape_string($connection, $id);
 
-        // Prepare the delete query
-        $delete = mysqli_query($connection, "DELETE FROM product WHERE id = '$id'");
+  // Sanitize the input to avoid SQL injection
+  $id = mysqli_real_escape_string($connection, $id);
 
-        // Check if the query was successful
-        if ($delete) {
-            // Successful deletion alert
-            echo "<script>alert('Your delete request was successful.'); window.location.href='index.php';</script>";
-        } else {
-            // If deletion fails, display an error message
-            echo "<script>alert('Error: Could not delete select product.');</script>";
-        }
-    }
+  // Prepare the delete query
+  $delete = mysqli_query($connection, "DELETE FROM product WHERE id = '$id'");
+
+  // Check if the query was successful
+  if ($delete) {
+    // Successful deletion alert
+    echo "<script>alert('Your delete request was successful.'); window.location.href='index.php';</script>";
+  } else {
+    // If deletion fails, display an error message
+    echo "<script>alert('Error: Could not delete select product.');</script>";
+  }
+}
 
 ?>
 <!DOCTYPE html>
@@ -31,10 +31,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <title>Product List -- <?php echo $sitename ?></title>
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="<?php echo $domain ?>admin/assets/img/favicon/favicon.ico" />
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/logo/logo.png">
+  <title><?php echo $sitename ?> - Shop Quality Products at Josemaka</title>
+  <meta name="description" content="Josemaka - Discover a wide range of quality products online. View products and visit our store to purchase them with confidence. Your trusted destination for reliable shopping.">
+  <meta name="keywords" content="Josemaka, buy products, view products, online store, shop, quality products, visit store, reliable shopping">
+  <meta name="author" content="Josemaka">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -67,7 +68,7 @@
 
   <!-- beautify ignore:end -->
   <script src="<?php echo $domain ?>admin/assets/jsjquery-3.6.0.min.js"></script>
-    <script src="<?php echo $domain ?>admin/assets/jssweetalert2.all.min.js"></script>
+  <script src="<?php echo $domain ?>admin/assets/jssweetalert2.all.min.js"></script>
 
 </head>
 
@@ -78,7 +79,7 @@
     <div class="layout-container">
 
       <!-- Menu -->
-      <?php include '../includes/side_bar.php'?>
+      <?php include '../includes/side_bar.php' ?>
       <!-- / Menu -->
 
       <!-- Layout container -->
@@ -107,7 +108,7 @@
             <!-- /Search -->
 
 
-          
+
           </div>
 
 
@@ -130,66 +131,66 @@
 
             <!-- Basic Bootstrap Table -->
             <div class="card">
-    <h5 class="card-header">All Product List</h5>
-    <div class="table-responsive text-nowrap">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>S/N</th>
-                    <th>Product Name</th>
-                    <th>Image</th>
-                    <th>Status</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody class="table-border-bottom-0">
-                <?php
+              <h5 class="card-header">All Product List</h5>
+              <div class="table-responsive text-nowrap">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>S/N</th>
+                      <th>Product Name</th>
+                      <th>Image</th>
+                      <th>Status</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody class="table-border-bottom-0">
+                    <?php
                     $sql = mysqli_query($connection, "SELECT * FROM `product` ORDER BY id DESC");
                     if (mysqli_num_rows($sql) > 0) {
-                        $count = 1;
-                        while ($details = mysqli_fetch_assoc($sql)) {
-                            $id        = $details['id'];
-                            $imagePath = "../../upload/product/" . $details['image'];
-                            $status = $details['status'];
-                        ?>
+                      $count = 1;
+                      while ($details = mysqli_fetch_assoc($sql)) {
+                        $id        = $details['id'];
+                        $imagePath = "../../upload/product/" . $details['image'];
+                        $status = $details['status'];
+                    ?>
                         <tr>
-                            <td><?php echo $count; ?></td>
-                            <td><?php echo htmlspecialchars($details['title']); ?></td>
-                            <td>
-                                <img src="<?php echo $imagePath; ?>" alt="Product Image"  height="100" style="border-radius: 5px;">
-                            </td>
-                            <td>
+                          <td><?php echo $count; ?></td>
+                          <td><?php echo htmlspecialchars($details['title']); ?></td>
+                          <td>
+                            <img src="<?php echo $imagePath; ?>" alt="Product Image" height="100" style="border-radius: 5px;">
+                          </td>
+                          <td>
                             <?php
 
-                                if ($status == 'notinsell') {
-                                  echo "<button style='text-transform: capitalize;' class='btn btn-danger'>$status</button>";
-                                } else if ($status == 'outstock') {
-                                  echo "<button style='text-transform: capitalize;' class='btn btn-primary'>$status</button>";
-                                } else if ($status == 'instock') {
-                                  echo "<button style='text-transform: capitalize;' class='btn btn-success'>$status</button>";
-                                } else {
-                                  echo "<button style='text-transform: capitalize;' class='btn btn-info'>$status</button>";
-                                }
+                            if ($status == 'notinsell') {
+                              echo "<button style='text-transform: capitalize;' class='btn btn-danger'>$status</button>";
+                            } else if ($status == 'outstock') {
+                              echo "<button style='text-transform: capitalize;' class='btn btn-primary'>$status</button>";
+                            } else if ($status == 'instock') {
+                              echo "<button style='text-transform: capitalize;' class='btn btn-success'>$status</button>";
+                            } else {
+                              echo "<button style='text-transform: capitalize;' class='btn btn-info'>$status</button>";
+                            }
 
-                                ?>
-                            </td>
-                            <td>
-                                <a onclick="return confirm('Are you sure you want to delete this product?')" href="?del_id=<?php echo $id; ?>">
-                                    <button class="btn btn-danger">Delete</button>
-                                </a>
-                            </td>
+                            ?>
+                          </td>
+                          <td>
+                            <a onclick="return confirm('Are you sure you want to delete this product?')" href="?del_id=<?php echo $id; ?>">
+                              <button class="btn btn-danger">Delete</button>
+                            </a>
+                          </td>
                         </tr>
-                <?php
-                    $count++;
-                        }
+                    <?php
+                        $count++;
+                      }
                     } else {
-                        echo "<tr><td class='bg-danger text-white' colspan='6'>No Events Found</td></tr>";
+                      echo "<tr><td class='bg-danger text-white' colspan='6'>No Events Found</td></tr>";
                     }
-                ?>
-            </tbody>
-        </table>
-    </div>
-</div>
+                    ?>
+                  </tbody>
+                </table>
+              </div>
+            </div>
 
             <!--/ Basic Bootstrap Table -->
           </div>
@@ -201,7 +202,7 @@
 
 
 
-        
+
           <div class="content-backdrop fade"></div>
         </div>
         <!-- Content wrapper -->

@@ -5,15 +5,15 @@
                   <nav class="nav-main mainmenu-nav mt--30">
                            <ul class="mainmenu metismenu" id="mobile-menu-active">
                                     <li class="has-droupdown">
-                                             <a href="<?php echo $domain ?>index.php" class="main">Home</a>
+                                             <a href="<?php echo $domain ?>" class="main">Home</a>
 
                                     </li>
-                                    <li><a href="<?php echo $domain ?>about/index.php" class="main">About</a></li>
+                                    <li><a href="<?php echo $domain ?>about/" class="main">About</a></li>
                                     <li class="">
-                                             <a href="<?php echo $domain ?>shop/index.php" class="main">Shop</a>
+                                             <a href="<?php echo $domain ?>shop/" class="main">Shop</a>
 
                                     </li>
-                                    <li><a href="<?php echo $domain ?><?php echo $domain ?>contact/index.php" class="main">Contact</a></li>
+                                    <li><a href="<?php echo $domain ?>contact/" class="main">Contact</a></li>
                            </ul>
                   </nav>
 

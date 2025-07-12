@@ -1,5 +1,5 @@
 <?php
-  include('../server/connection.php');
+include('../server/connection.php');
 ?>
 
 
@@ -11,11 +11,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <title>Admin Authentication</title>
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
-
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo $domain ?>assets/images/logo/logo.png">
+  <title><?php echo $sitename ?> - Shop Quality Products at Josemaka</title>
+  <meta name="description" content="Josemaka - Discover a wide range of quality products online. View products and visit our store to purchase them with confidence. Your trusted destination for reliable shopping.">
+  <meta name="keywords" content="Josemaka, buy products, view products, online store, shop, quality products, visit store, reliable shopping">
+  <meta name="author" content="Josemaka">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,9 +56,9 @@
     gtag('js', new Date());
     gtag('config', 'GA_MEASUREMENT_ID');
   </script>
-  
+
   <script src="jquery-3.6.0.min.js"></script>
-    <script src="sweetalert2.all.min.js"></script>
+  <script src="sweetalert2.all.min.js"></script>
   <!-- Custom notification for demo -->
   <!-- beautify ignore:end -->
 
@@ -68,7 +68,7 @@
 
   <!-- Layout wrapper -->
   <div class="layout-wrapper layout-content-navbar  ">
-    <div class="layout-container"> 
+    <div class="layout-container">
       <!-- Menu -->
 
       <!-- / Menu -->
@@ -99,32 +99,32 @@
                   </div>
                   <div class="card-body">
                     <?php
-                      if (isset($_POST['proceed'])) {
-                        $email = mysqli_real_escape_string($connection, $_POST['email']);
-                        $pass = mysqli_real_escape_string($connection, $_POST['pass']);
+                    if (isset($_POST['proceed'])) {
+                      $email = mysqli_real_escape_string($connection, $_POST['email']);
+                      $pass = mysqli_real_escape_string($connection, $_POST['pass']);
 
-                        if (!empty($email) && !empty($pass)) {
-                            $check_ad = mysqli_query($connection, "SELECT * FROM `admin` WHERE `email` = '$email' AND `password` = '$pass'");
-                            
-                            // echo mysqli_num_rows($check_ad) . '<br> <br>'; 
-                            // print_r(mysqli_fetch_assoc($check_ad));
-            
-                            if (mysqli_num_rows($check_ad) > 0) {
-                              $_SESSION['admin_login'] = password_hash('ghghghhhfffyjgj', PASSWORD_DEFAULT);
-                              echo "<script> 
+                      if (!empty($email) && !empty($pass)) {
+                        $check_ad = mysqli_query($connection, "SELECT * FROM `admin` WHERE `email` = '$email' AND `password` = '$pass'");
+
+                        // echo mysqli_num_rows($check_ad) . '<br> <br>'; 
+                        // print_r(mysqli_fetch_assoc($check_ad));
+
+                        if (mysqli_num_rows($check_ad) > 0) {
+                          $_SESSION['admin_login'] = password_hash('ghghghhhfffyjgj', PASSWORD_DEFAULT);
+                          echo "<script> 
                                 window.location.href = 'index.php';
                               </script>";
-                            } else { 
-                              echo "<script>
-                                  Swal.fire('Error','YOU ARE NOT AN ADMIN PLEASE GO AWAY','error')
-                                </script>";
-                            } 
                         } else {
                           echo "<script>
+                                  Swal.fire('Error','YOU ARE NOT AN ADMIN PLEASE GO AWAY','error')
+                                </script>";
+                        }
+                      } else {
+                        echo "<script>
                               Swal.fire('warning','YOUR INPUT IS EMPTY','warning')
                             </script>";
-                        }
                       }
+                    }
 
 
                     ?>
@@ -136,7 +136,7 @@
                       <div class="mb-3">
                         <label class="form-label" for="basic-default-company">Password</label>
                         <input type="password" class="form-control" name="pass" id="basic-default-company" placeholder="Who Knows" />
-                      </div>  
+                      </div>
                       <!-- <div class="mb-3">
                         <label class="form-label" for="basic-default-company">Admin Security Pin</label>
                         <input type="password" class="form-control" name="ad_pin" id="basic-default-company" placeholder="Nobody" />
@@ -153,7 +153,7 @@
           <!-- / Content -->
 
           <!-- Footer -->
-          
+
           <!-- / Footer -->
 
 

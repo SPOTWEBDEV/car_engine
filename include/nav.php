@@ -35,17 +35,17 @@
                                                                         <div class="nav-area">
                                                                                  <ul class="">
                                                                                           <li class="main-nav">
-                                                                                                   <a class="main-menu" href="<?php echo $domain ?>index.php">Home</a>
+                                                                                                   <a class="main-menu" href="<?php echo $domain ?>">Home</a>
 
                                                                                           </li>
 
                                                                                           <li class="main-nav">
-                                                                                                   <a class="main-menu" href="<?php echo $domain ?>about/index.php">About Us</a>
+                                                                                                   <a class="main-menu" href="<?php echo $domain ?>about/">About Us</a>
                                                                                           </li>
 
 
                                                                                           <li class="main-nav">
-                                                                                                   <a class="main-menu" href="<?php echo $domain ?>shop/index.php">Shop</a>
+                                                                                                   <a class="main-menu" href="<?php echo $domain ?>shop/">Shop</a>
 
                                                                                           </li>
                                                                                           <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>contact/">Contact</a></li>
