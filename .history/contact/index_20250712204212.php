@@ -138,7 +138,7 @@
                             </div>
                             <h5 class="title">Facebook</h5>
                             <div style="width:100%; display: flex; justify-content: center;">
-                                <li> <a  target="_blank"  href="https://www.facebook.com/profile.php?id=61577994134274&mibextid=wwXIfr&mibextid=wwXIfr"><button class="rts-btn radius-small btn-primary">Join Us</button></a></li>
+                                <li> <a  target=""  href="https://www.facebook.com/profile.php?id=61577994134274&mibextid=wwXIfr&mibextid=wwXIfr"><button class="rts-btn radius-small btn-primary">Join Us</button></a></li>
                             </div>
 
                         </div>
