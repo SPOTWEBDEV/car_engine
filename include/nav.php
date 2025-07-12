@@ -48,7 +48,7 @@
                                                                                                    <a class="main-menu" href="<?php echo $domain ?>shop/index.php">Shop</a>
 
                                                                                           </li>
-                                                                                          <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>contact/index.php">Contact</a></li>
+                                                                                          <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>contact/">Contact</a></li>
                                                                                  </ul>
                                                                         </div>
                                                                         <div class="bottom-right">

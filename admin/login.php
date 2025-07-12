@@ -110,7 +110,7 @@
                             // print_r(mysqli_fetch_assoc($check_ad));
             
                             if (mysqli_num_rows($check_ad) > 0) {
-                              $_SESSION['admin_login_'] = password_hash('ghghghhhfffyjgj', PASSWORD_DEFAULT);
+                              $_SESSION['admin_login'] = password_hash('ghghghhhfffyjgj', PASSWORD_DEFAULT);
                               echo "<script> 
                                 window.location.href = 'index.php';
                               </script>";

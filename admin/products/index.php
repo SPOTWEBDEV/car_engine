@@ -1,5 +1,6 @@
 <?php
     include '../../server/connection.php';
+    include '../../server/admin/auth/index.php';
     if (isset($_GET['del_id'])) {
         // Get the ID from the URL query string
         $id = $_GET['del_id'];

@@ -1,6 +1,7 @@
 <?php
 
 include('../server/connection.php');
+include('../server/admin/auth/index.php');
 
 ?>
 <!DOCTYPE html>

@@ -99,20 +99,20 @@
                                         <div class="nav-area">
                                             <ul class="">
                                                 <li class="">
-                                                    <a class="main-menu" href="<?php echo $domain ?>index.php">Home</a>
+                                                    <a class="main-menu" href="<?php echo $domain ?>">Home</a>
 
                                                 </li>
 
                                                 <li class="main-nav">
-                                                    <a class="main-menu" href="<?php echo $domain ?>about/index.php">About Us</a>
+                                                    <a class="main-menu" href="<?php echo $domain ?>about/">About Us</a>
                                                 </li>
 
 
                                                 <li class="main-nav">
-                                                    <a class="main-menu" href="<?php echo $domain ?>shop/index.php">Shop</a>
+                                                    <a class="main-menu" href="<?php echo $domain ?>shop/">Shop</a>
 
                                                 </li>
-                                                <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>contact">Contact</a></li>
+                                                <li class="main-nav"><a class="main-menu" href="<?php echo $domain ?>contact/">Contact</a></li>
                                             </ul>
                                         </div>
                                         <div class="bottom-right">
@@ -770,7 +770,7 @@
                             <h6 class="title">Pages </h6>
                             <div class="body">
                                 <ul class="nav-bottom">
-                                    <li><a href="<?php echo $domain ?>index.php">Home</a></li>
+                                    <li><a href="<?php echo $domain ?>">Home</a></li>
                                     <li><a href="<?php echo $domain ?>about/">About</a></li>
                                     <li><a href="<?php echo $domain ?>shop/">Shop</a></li>
                                     <li><a href="<?php echo $domain ?>contact/">Contact</a></li>
@@ -812,7 +812,7 @@
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
                     <li class="">
-                        <a href="<?php echo $domain ?>index.php" class="main">Home</a>
+                        <a href="<?php echo $domain ?>" class="main">Home</a>
 
                     </li>
 

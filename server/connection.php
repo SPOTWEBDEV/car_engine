@@ -59,7 +59,7 @@ if ($isLocalhost) {
 
 
 
-session_start();
+
 
 
 $host = 'mail.josemaka.com';
@@ -69,4 +69,5 @@ $sitephone_number = "+244 928 602 665";
 $siteaddress = "Rua 17 setembro Bairro golf 1 ao lado do Hospital Avokumbi Kilamba Kiaxi Luanda-Angola  <br> Loja Zona A 21";
 $siteshortaddress = 'Avokumbi Kilamba Kiaxi luandam-Angola';
 
+session_start();
 ?>
