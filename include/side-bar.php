@@ -4,7 +4,7 @@
          <div class="mobile-menu-main">
                   <nav class="nav-main mainmenu-nav mt--30">
                            <ul class="mainmenu metismenu" id="mobile-menu-active">
-                                    <li class="has-droupdown">
+                                    <li >
                                              <a href="<?php echo $domain ?>" class="main">Home</a>
 
                                     </li>
@@ -17,7 +17,9 @@
                            </ul>
                   </nav>
 
-                  <p>Design And Develop By <a target="_blank" href="https://spotwebtech.com.ng/">SPOTWEB TECH</a></p>
+                  <p>Design And Develop By <a target="_blank" href="https://spotwebtech.com.ng/">SPOTWEB TECH COMPANY</a></p>
+
+                  <div id="google_translate_element"></div>
          </div>
          <!-- mobile menu area end -->
 </div>

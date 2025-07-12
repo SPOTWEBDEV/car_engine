@@ -395,11 +395,13 @@
         </div>
     </div>
 
+    <?php include('../include/side-bar.php') ?>
+
     <!-- rts footer area start -->
     <?php include('../include/footer.php')  ?>
     <!-- rts footer area end -->
     <!-- header style two -->
-    <?php include('../include/side-bar.php') ?>
+
     <!-- header style two End -->
     <script src="<?php echo $domain ?>assets/js/plugins/jquery.js"></script>
     <script src="<?php echo $domain ?>assets/js/plugins/jquery-ui.js"></script>

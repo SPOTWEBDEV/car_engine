@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/fonts/rt-icon.css">
     <link rel="stylesheet" href="<?php echo $domain ?>assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body class="with-sidebar">
@@ -130,6 +131,16 @@
                                     </a>
                                 </li>
                             </ul>
+
+                        </div>
+                        <div class="contact-wrapper">
+                            <div class="icon">
+                                <i style="font-size: 40px; color: rgb(255, 54, 0);" class="bi bi-facebook"></i>
+                            </div>
+                            <h5 class="title">Facebook</h5>
+                            <div style="width:100%; display: flex; justify-content: center;">
+                                <li> <a href="https://www.facebook.com/profile.php?id=61577994134274&mibextid=wwXIfr&mibextid=wwXIfr"><button class="rts-btn radius-small btn-primary">Join Us</button></a></li>
+                            </div>
 
                         </div>
                     </div>

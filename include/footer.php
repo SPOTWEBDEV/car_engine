@@ -46,7 +46,10 @@
 
                                              </div>
                                     </div>
+
+
                            </div>
                   </div>
          </div>
 </div>
+<?php include('../translator/index.php')  ?>

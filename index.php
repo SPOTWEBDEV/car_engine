@@ -847,6 +847,7 @@
             <div class="rts-social-style-one pl--20 mt--50">
                 <p>Design And Develop By <a href="">SPOTWEB TECH</a></p>
             </div>
+            <div id="google_translate_element"></div>
         </div>
         <!-- mobile menu area end -->
     </div>
