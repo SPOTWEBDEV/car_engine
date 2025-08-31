@@ -851,6 +851,49 @@
         </div>
         <!-- mobile menu area end -->
     </div>
+
+
+    <style>
+        /* Floating WhatsApp Button */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            left: 20px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .whatsapp-float:hover {
+            background-color: #20b358;
+        }
+
+        .whatsapp-icon {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+    <a
+        href="https://wa.me/message/YDSESPRPNHYSK1"
+        class="whatsapp-float"
+        target="_blank"
+        aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp whatsapp-icon"></i>
+    </a>
+    <!-- Font Awesome for WhatsApp Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
     <!-- header style two End -->
     <script src="<?php echo $domain ?>assets/js/plugins/jquery.js"></script>
     <script src="<?php echo $domain ?>assets/js/plugins/jquery-ui.js"></script>
